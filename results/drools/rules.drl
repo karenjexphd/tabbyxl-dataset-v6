@@ -1,0 +1,142 @@
+import ru.icc.td.tabbyxl.model.*
+import ru.icc.td.tabbyxl.model.style.*
+
+
+rule "#1" lock-on-active salience -1
+	when
+		c : CCell(rt > 1, cl > 1, !blank, text.matches("#|s"));
+	then
+		c.setText("0");
+		update(c);
+end
+
+rule "#2" lock-on-active salience -2
+	when
+		c : CCell (rt > 1, cl > 1, !blank, text.matches("F|\\.|\\.{2}+|\\.{3}+|\\u2026|\\u2014|x|-|NA"));
+	then
+		c.setText(null);
+		update(c);
+end
+
+rule "#3" lock-on-active salience -3
+	when
+		c : CCell (rt > 1, cl > 1, !blank, text.matches("(\\u2012|\\u2013|\\u2014|\\u2015|\\u002D|\\u2212|\\uFF0D)(\\d+(\\s|\\.|,)?\\d*)+(E|%|\\*)?"), t :text);
+	then
+		c.setText("-".concat(t.substring(1)));
+		update(c);
+end
+
+rule "#4" lock-on-active salience -4
+	when
+		c : CCell(rt == 1, cl > 1, !blank);
+	then
+		c.setTag("ColumnHeading");
+		c.newLabel();
+		update(c);
+end
+
+rule "#5" salience -5
+	when
+		c1 : CCell(tag == "ColumnHeading");
+		c2 : CCell(tag == null, rt > 1, cl > 1, !blank, rt == c1.rb + 1, (c1.cl <= cl && cr < c1.cr) || (c1.cl < cl  && cr <= c1.cr));
+	then
+		c2.setTag("ColumnHeading");
+		c2.newLabel();
+		c2.getLabel().setParent(c1.getLabel());
+		update(c1);
+		update(c2);
+end
+
+rule "#6" lock-on-active salience -6
+	when
+		c : CCell(rt > 1, cl == 1, !blank, tag == null);
+	then
+		c.setTag("RowHeading");
+		c.newLabel();
+		update(c);
+end
+
+rule "#7" lock-on-active salience -7
+	when
+		c0 : CCell(rt == 1, cl == 1, !blank);
+		c1 : CCell(rt > 1, cl > 1, !blank, tag == null, !text.matches("(-|\\+|\\$)?(\\d+(\\s|\\.|,)?\\d*)+(E|%|\\*)?"));
+		c2 : CCell(rt > 1, cl > 1, !blank, tag == null, cl <= c1.cl);
+	then
+		c2.setTag("RowHeading");
+		c2.newLabel();
+		update(c2);
+end
+
+rule "#8" lock-on-active salience -8
+	when
+		c : CCell(cl > 1, rt > 1, !blank, tag == null);
+	then
+		c.setTag("DataCell");
+		c.newEntry();
+		update(c);
+end
+
+rule "#9" no-loop true salience -9
+	when
+		c : CCell(cl == 1, tag == "RowHeading", (int)text.charAt(0) == 45, t : text);
+	then
+		c.setIndent(2);
+		update(c);
+end
+
+rule "#10" no-loop true salience -10
+	when
+		c1 : CCell(cl == 1, tag == "RowHeading");
+		c2 : CCell(cl == 1, tag == "RowHeading", rt > c1.rt, indent == c1.indent + 2);
+		not (exists (CCell(cl == 1, tag == "RowHeading", indent == c1.indent, rt > c1.rt, rt < c2.rt)));
+	then
+		c2.getLabel().setParent(c1.getLabel());
+end
+
+rule "#11" no-loop true salience -11
+	when
+		c1 : CCell(cl == 1, tag == "RowHeading", style.font.bold, indent == 0, !text.matches("(?i)(Total\\s*)|(I alt\\s*)|(All\\s*)"));
+		c2 : CCell(cl == 1, tag == "RowHeading", rt > c1.rt, style.font.normal, indent == 0);
+		not (exists (CCell(cl == 1, tag == "RowHeading", style.font.bold, rt > c1.rt, rt < c2.rt, indent == 0)));
+	then
+		c2.getLabel().setParent(c1.getLabel());
+end
+
+rule "#12" no-loop true salience -12
+	when
+		c : CCell(tag == "ColumnHeading");
+	then
+		c.getLabel().setCategory("ColumnHeading");
+end
+
+rule "#13" no-loop true salience -13
+	when
+		c1 : CCell(rt == 1, cl > 1, !blank, index: cl);
+		c2 : CCell(tag == "RowHeading", cl == c1.cl);
+	then
+		c2.getLabel().setCategory("RowHeading" + index);
+end
+
+rule "#14" no-loop true salience -14
+	when
+		c1 : CCell(rt == 1, cl == 1);
+		c2 : CCell(tag == "RowHeading", cl == 1);
+	then
+		c2.getLabel().setCategory("RowHeading1");
+end
+
+rule "#15" no-loop true salience -15
+	when
+		c1 : CCell(tag == "ColumnHeading", label.terminal);
+		c2 : CCell(tag == "DataCell", cl == c1.cl);
+	then
+		c2.getEntry().addLabel(c1.getLabel());
+end
+
+rule "#16" no-loop true salience -16
+	when
+		c1 : CCell(tag == "RowHeading");
+		c2 : CCell(tag == "DataCell", rt == c1.rt);
+	then
+		c2.getEntry().addLabel(c1.getLabel());
+end

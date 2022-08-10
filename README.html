@@ -1,0 +1,424 @@
+﻿<h1 id="tabbyxl-dataset-for-the-performance-evaluation-of-a-software-platform-for-rule-based-spreadsheet-data-extraction-and-transformation">TabbyXL: Dataset for the Performance Evaluation of a Software Platform for Rule-Based Spreadsheet Data Extraction and Transformation</h1>
+<p>This dataset is designed to evaluate <code>TabbyXL, version 1.1.0</code>, a software platform for the rule-based transformation of spreadsheet data from arbitrary to relational tables, that is freely available at <a href="https://github.com/tabbydoc/tabbyxl/releases/tag/v1.1.0">GitHub</a>.</p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#data-description">Data description</a>
+<ul>
+<li><a href="#files">Files</a></li>
+<li><a href="#ground-truth-data">Ground-truth data</a></li>
+</ul>
+</li>
+<li><a href="#experiment-description">Experiment description</a></li>
+<li><a href="#steps-to-reproduce">Steps to reproduce</a>
+<ul>
+<li><a href="#with-crl2j">with CRL2J</a></li>
+<li><a href="#with-drools-dsl">with Drools-DSL</a></li>
+<li><a href="#with-drools">with Drools</a></li>
+<li><a href="#with-jess">with Jess</a></li>
+</ul>
+</li>
+<li><a href="#results-of-the-performance-evaluation">Results of the Performance Evaluation</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+<h2 id="data-description">Data Description</h2>
+<p>Our source data are based on the existing dataset of tables called <code>Troy_200</code> (<a href="#references">Nagy, 2016</a>) that contains 200 arbitrary tables as CSV files collected from 10 different government statistical websites. They were collected for the experiment on data extraction from tables (see the paper <a href="#references">Embley, 2016</a>). We use its earlier version that stores the original tables with style features (fonts, alignment, and indentation) as Excel spreadsheets (available at <a href="http://tango.byu.edu/data">http://tango.byu.edu/data</a>).</p>
+<p>The dataset contains the following material:</p>
+<ul>
+<li>all of <code>Troy_200</code> tables with style features put into a single spreadsheet file;</li>
+<li>the ground-truth data we prepared for the automatic performance evaluation of the role and structural stages of the table analysis;</li>
+<li>Rulesets in <a href="https://github.com/tabbydoc/tabbyxl/wiki/CRL-Language">CRL</a> (see <a href="#references">Shigarov, 2017</a>), <a href="https://docs.jboss.org/drools/release/7.7.0.Final/drools-docs/html_single/#_domain_specific_languages">DSLR</a>, <a href="https://docs.jboss.org/drools/release/7.7.0.Final/drools-docs/html_single/index.html#_droolslanguagereferencechapter">DRL</a>, and <a href="https://www.jessrules.com/jess/docs/71/basics.html">CLP</a> formats designed for transforming <code>Troy_200</code> arbitrary tables into the relational form;</li>
+<li>Log files with the results of the program running and with the results of the performance evaluation of <code>TabbyXL</code>.</li>
+</ul>
+<p>The dataset provides all required data to reproduce the experiment including the program running and automatic performance evaluation of <code>TabbyXL</code>, using the following options:</p>
+<ul>
+<li><code>CRL2J</code> option: <code>TabbyXL</code> automatically generates Java source code from CRL rules with our CRL interpreter and compile it to Java bytecode, and then runs this generated program with JRE (<a href="https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java SE Runtime Environment 8</a>).</li>
+<li><code>Drools-DSL</code> option: <code>TabbyXL</code> automatically maps CRL rules to DRL ones with the DSL specification, and runs the executing them with <a href="https://www.drools.org">Drools Expert</a> rule engine.</li>
+<li><code>Drools</code> option: <code>TabbyXL</code> runs the executing DRL ruleset  corresponding to our CRL ruleset with <a href="https://www.drools.org">Drools Expert</a> rule engine.</li>
+<li><code>Jess</code> option: <code>TabbyXL</code> runs the executing CLP ruleset corresponding to our CRL ruleset with <a href="http://www.jessrules.com">Jess</a> rule engine.</li>
+</ul>
+<h3 id="files">Files</h3>
+<p>The experiment dataset includes the following files</p>
+
+<table>
+<thead>
+<tr>
+<th>Directory/File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>data/gt</code></td>
+<td>200 ground-truth tables for automatic performance evaluation</td>
+</tr>
+<tr>
+<td><code>data/tables.xlsx</code></td>
+<td>200 arbitrary tables in the single workbook (as a source)</td>
+</tr>
+<tr>
+<td><code>result/crl2j</code></td>
+<td><code>CRL2J</code> option results</td>
+</tr>
+<tr>
+<td><code>results/crl2j/extracted</code></td>
+<td>200 relational tables automatically extracted from the source</td>
+</tr>
+<tr>
+<td><code>results/crl2j/eval.log</code></td>
+<td>Log file with results of the performance evaluation</td>
+</tr>
+<tr>
+<td><code>results/crl2j/results.log</code></td>
+<td>Log file with results of the program running</td>
+</tr>
+<tr>
+<td><code>result/crl2j/rules.crl</code></td>
+<td>CRL ruleset</td>
+</tr>
+<tr>
+<td><code>result/drools-dsl</code></td>
+<td><code>Drools-DSL</code> option results</td>
+</tr>
+<tr>
+<td><code>result/drools-dsl/config/crl.dsl</code></td>
+<td>DSL specification for CRL-to-DRL mapping</td>
+</tr>
+<tr>
+<td><code>result/drools-dsl/config/drools-dsl.properties</code></td>
+<td>Configuration file for using <code>Drools Expert</code> rule engine</td>
+</tr>
+<tr>
+<td><code>results/drools-dsl/extracted</code></td>
+<td>200 relational tables automatically extracted from the source</td>
+</tr>
+<tr>
+<td><code>results/drools-dsl/eval.log</code></td>
+<td>Log file with results of the performance evaluation</td>
+</tr>
+<tr>
+<td><code>results/drools-dsl/results.log</code></td>
+<td>Log file with results of the program running</td>
+</tr>
+<tr>
+<td><code>result/drools-dsl/rules.dslr</code></td>
+<td>CRL ruleset</td>
+</tr>
+<tr>
+<td><code>result/drools</code></td>
+<td><code>Drools</code> option results</td>
+</tr>
+<tr>
+<td><code>result/drools/config/drools.properties</code></td>
+<td>Configuration file for using <code>Drools Expert</code> rule engine</td>
+</tr>
+<tr>
+<td><code>results/drools/extracted</code></td>
+<td>200 relational tables automatically extracted from the source</td>
+</tr>
+<tr>
+<td><code>results/drools/eval.log</code></td>
+<td>Log file with results of the performance evaluation</td>
+</tr>
+<tr>
+<td><code>results/drools/results.log</code></td>
+<td>Log file with results of the program running</td>
+</tr>
+<tr>
+<td><code>result/drools/rules.drl</code></td>
+<td>DRL ruleset</td>
+</tr>
+<tr>
+<td><code>result/jess</code></td>
+<td><code>Jess</code> option results</td>
+</tr>
+<tr>
+<td><code>result/jess/config/jess.properties</code></td>
+<td>Configuration file for using <code>Jess</code> rule engine</td>
+</tr>
+<tr>
+<td><code>results/jess/extracted</code></td>
+<td>200 relational tables automatically extracted from the source</td>
+</tr>
+<tr>
+<td><code>results/jess/eval.log</code></td>
+<td>Log file with results of the performance evaluation</td>
+</tr>
+<tr>
+<td><code>results/jess/results.log</code></td>
+<td>Log file with results of the program running</td>
+</tr>
+<tr>
+<td><code>result/jess/rules.clp</code></td>
+<td>CLP (CLIPS) ruleset</td>
+</tr>
+<tr>
+<td><code>README.md</code></td>
+<td>this file</td>
+</tr>
+</tbody>
+</table><h3 id="ground-truth-data">Ground-Truth Data</h3>
+<p>The collected ground-truth data covers both the role and structural analysis. Their form is designed for human readability. Moreover, they are independent of the presence of critical cells in tables.</p>
+<p>Each ground-truth (in the folder <code>data/gt</code>) table is accompanied with two recordsets: <code>ENTRIES</code> and <code>LABELS</code>. The first of them specifies entries. Each record presents an entry as a triple <code>&lt;value, provenance, set of associated labels&gt;</code>. For example, a fragment of <code>ENTRIES</code> recordset is shown below</p>
+
+<table>
+<thead>
+<tr>
+<th><code>ENTRY</code></th>
+<th><code>PROVENANCE</code></th>
+<th><code>LABELS</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>243</code></td>
+<td><code>T11</code></td>
+<td><code>"2002 [B11]", "balance [T4]"</code></td>
+</tr>
+<tr>
+<td><code>2871</code></td>
+<td><code>S11</code></td>
+<td><code>"2002 [B11]", "imports [S4]"</code></td>
+</tr>
+</tbody>
+</table><p>In <code>LABELS</code> recordset each record presents a label as a triple <code>&lt;value, provenance, parent reference</code>&gt; as demonstrated below</p>
+
+<table>
+<thead>
+<tr>
+<th><code>LABEL</code></th>
+<th><code>PROVENANCE</code></th>
+<th><code>PARENT</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>balance</code></td>
+<td><code>T4</code></td>
+<td><code>other ict goods [R3]</code></td>
+</tr>
+<tr>
+<td><code>imports</code></td>
+<td><code>S4</code></td>
+<td><code>other ict goods [R3]</code></td>
+</tr>
+</tbody>
+</table><h3 id="ruleset">Ruleset</h3>
+<p>We designed the ruleset to transform the tables of the dataset into the relational form. It consists of 16 following rules:</p>
+<ul>
+<li><code>Rule-1</code> replaces each cell value matching <code>\#</code> or <code>s</code> on <code>0</code>.</li>
+<li><code>Rule-2</code> replaces each cell value such as <code>F</code>, <code>x</code>, <code>NA</code>, horizontal ellipsis, or dash on <code>null</code>.</li>
+<li><code>Rule-3</code> replaces dashes or hyphens at the beginning of a negative number on the regular minus symbol.</li>
+<li><code>Rule-4</code> generates labels from non-empty cells of the topmost row.</li>
+<li><code>Rule-5</code> searches for head rows top down beginning from the topmost one, examining pairs of neighbor rows. It expects that column labels in the pair form a hierarchy. If a non-empty cell <code>c</code> located on <code>i</code>-row in the top-right region spans several columns and non-empty cells <code>c1,...,cn</code> are located in these nested columns on <code>i+1</code>-row, then the cell <code>c</code> contains a parent label for labels produced from the cells <code>c1,...,cn</code>.</li>
+<li><code>Rule-6</code> creates labels from non-empty cells in the leftmost column.</li>
+<li><code>Rule-7</code> continues to generate labels from cells located below the head in the case when their values are not numbers.</li>
+<li><code>Rule-8</code> generates entries from numeric values of the remaining cells located below the head.</li>
+<li><code>Rule-9</code> we use to fix indentation. It sets up the indent for each cell when its string value begins from a hyphen-minus character. The next two rules recover a hierarchy of row labels located in the leftmost column.</li>
+<li><code>Rule-10</code> searches for parent-child pairs among row labels assuming that each new level of a hierarchy appends one additional indent (two spaces) in cells of nested labels.</li>
+<li><code>Rule-11</code> associates a child label with parent one when the parent cell with a boldface text is located above the child cell with regular text. Exceptions are made for third cases where a parent candidate is <code>Total</code>, <code>All</code>, or <code>I alt</code>. They are ignored.</li>
+<li>The three rules: <code>Rule-12</code>, <code>Rule-13</code> and <code>Rule-14</code>, place labels into synthetic categories: <code>ColCat</code>, <code>RowCat1,...,RowCatN</code>.</li>
+<li><code>Rule-15</code> associates an entry with a terminal label when they are originated from cells located in the same column.</li>
+<li><code>Rule-16</code> connects an entry and all labels when their cells are in the same row.</li>
+</ul>
+<h2 id="experiment-description">Experiment Description</h2>
+<p>We put all of Troy_200 tables with style features into the single spreadsheet file (<code>data/tables.xlsx</code>). Each of 200 tables is located in a separate sheet. The pair of tags <code>$START</code> and <code>$END</code> points out to its location inside the sheet.</p>
+<p>The <a href="#ruleset">ruleset</a> was implemented in 4 formats:</p>
+<ul>
+<li>CRL (see <code>result/crl2j/rules.crl</code>)</li>
+<li>DSLR (CRL as DSL-dialect for Drools) (see <code>result/drools-dsl/rules.dslr</code>)</li>
+<li>DRL (see <code>result/drools/rules.drl</code>)</li>
+<li>CLP (<code>result/jess/rules.clp</code>).</li>
+</ul>
+<p>We transformed automatically all tables of the single spreadsheet into the relational form, using <code>TabbyXL</code> with the listed options:</p>
+<ul>
+<li><code>CRL2J</code> <em>option</em>: we automatically generated Java program from CRL ruleset, using use CRL-to-Java translation, and ran it with JRE (<a href="https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java SE Runtime Environment 8</a>). See the folder <code>results/crl2j</code>.</li>
+<li><code>Drools-DSL</code> <em>option</em>: we executed the ruleset presented in CRL-dialect and automatically mapped to DRL with <a href="https://www.drools.org"><code>Drools Expert</code></a> rule engine and our DSL-specification of CRL-dialect. See the folder <code>results/drools-dsl</code>.</li>
+<li><code>Drools</code> <em>option</em>: we executed our ruleset in DRL format with <a href="https://www.drools.org"><code>Drools Expert</code></a> rule engine. See the folder <code>results/drools</code>.</li>
+<li><code>Jess</code> <em>option</em>: we executed the ruleset in CLP (CLIPS) format with <a href="http://www.jessrules.com"><code>Jess</code></a> rule engine. See the folder <code>results/jess</code>.</li>
+</ul>
+<p>The folder <code>results/crl2j/extracted</code> | <code>results/drools-dsl/extracted</code> | <code>results/drools/extracted</code>| <code>results/jess/extracted</code> contains the relational tables extracted automatically by <code>CRL2J</code> | <code>Drools-DSL</code> | <code>Drools</code> |<code>Jess</code> option respectively. Similarly to the ground-truth data, each extracted table (in folder <code>results/../extracted</code>) is accompanied with two recordsets: <code>ENTRIES</code> and <code>LABELS</code>. This provides the matching the results against the ground-truth data to evaluate the performance automatically.</p>
+<p>We also stored the log files with the results of the program running of <code>TabbyXL</code> (<code>results/../results.log</code>).</p>
+<p>We evaluated the performance of <code>TabbyXL</code> for all options, using standard metrics: <code>recall</code>, <code>precision</code>, and <code>F-measure</code>. We adopted them as follows. When R is a set of instances in the result table and S is a set of instances in the corresponding source table, then: <code>recall</code> = R∩S/S and <code>precision</code> = R∩S/R. An instance refers to an entry, label, entry-label pair, or label-label pair. These metrics were separately calculated for each type of instances (entries, labels, entry-label pairs, and label-label pairs).</p>
+<p>The results of the performance evaluation of all options are stored in the log files (<code>results/../eval.log</code>).</p>
+<p>The performance evaluation confirms the applicability of the implemented rulesets to process a bunch of different arbitrary tables of the same genre (government statistical websites). The experiment demonstrates that <code>TabbyXL</code> can be used for developing programs for the transformation of spreadsheet data into the relational form.</p>
+<h2 id="steps-to-reproduce">Steps to Reproduce</h2>
+<p><strong>Step 1.</strong> Download and install <a href="http://www.oracle.com/technetwork/java/javase/downloads">Java SE Development Kit 8</a> or more.</p>
+<p><em>Note that <code>TabbyXL</code> uses Java compiler included in JDK to compile Java code automatically generated from CRL rules with <code>CRL2J</code> option. This requires to use JDK, not JRE. However, JRE is enough for reproducing this experiment with <code>Drools-DSL</code>,  <code>Drools</code>, or <code>Jess</code> option. In that case, you can use <a href="http://www.oracle.com/technetwork/java/javase/downloads">Java SE Runtime Environment 8</a> or more.</em></p>
+<p><strong>Step 2.</strong> Download and unpack zip archive that contains the experiment data files into your directory.</p>
+<p><em>Skip this step if you read <a href="http://README.md">README.md</a> from unpacked the zip archive with the dataset.</em></p>
+<p><strong>Step 3.</strong> Download and unpack <a href="https://github.com/tabbydoc/tabbyxl/releases/tag/v1.1.0"><code>tabbyxl-1.1.0.zip</code></a> into this directory.</p>
+<p><em>Note that you can also build <code>TabbyXL-1.1.0-jar-with-dependencies.jar</code> (the required executable JAR file with dependencies) from <a href="https://github.com/tabbydoc/tabbyxl/releases/tag/v1.1.0">the source code</a> (<a href="https://github.com/tabbydoc/tabbyxl/blob/master/README.md#building-with-apache-maven">read the instruction on building with Apache Maven</a>).</em></p>
+<p><strong>Step 4.</strong> Check your directory. If you see the following structure then it is okay:</p>
+<pre><code>+-- data/
+¦   +-- tables.xlsx
+¦   L-- gt/
++-- results/
+¦   +-- crl2j/
+¦   ¦   +-- extracted/
+¦   ¦   +-- eval.log
+¦   ¦   +-- results.log
+¦   ¦   L-- rules.crl
+¦   +-- drools-dsl/
+¦   ¦   +-- config/
+¦   ¦   ¦   +-- crl.dsl
+¦   ¦   ¦   L-- drools-dsl.properties
+¦   ¦   +-- extracted/
+¦   ¦   +-- eval.log
+¦   ¦   +-- results.log
+¦   ¦   L-- rules.dslr
+¦   +-- drools/
+¦   ¦   +-- config/
+¦   ¦   ¦   L-- drools.properties
+¦   ¦   +-- extracted/
+¦   ¦   +-- eval.log
+¦   ¦   +-- results.log
+¦   ¦   L-- rules.drl
+¦   L-- jess/
+¦       +-- config/
+¦       ¦   +-- lib/
+¦       ¦   ¦   L-- [jess.jar]
+¦       ¦   L-- jess.properties
+¦       +-- extracted/
+¦       +-- eval.log
+¦       +-- results.log
+¦       L-- rules.clp
++-- README.md
+L-- TabbyXL-1.1.0-jar-with-dependencies.jar
+</code></pre>
+<p><strong>Step 5.</strong> Change to your directory that contains the unpacked data and <code>TabbyXL</code></p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">cd</span> <span class="token operator">&lt;</span>path to your directory<span class="token operator">&gt;</span>
+</code></pre>
+<p><strong>Step 6.</strong> Run <code>TabbyXL</code> in your console as explained below.</p>
+<h3 id="with-crl2j">with CRL2J</h3>
+<p><strong>Step 6.1.1.</strong> In order to obtain results, run the executable JAR with the following command:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -jar TabbyXL-1.1.0-jar-with-dependencies.jar -input data/tables.xlsx -ruleset results/crl2j/rules.crl -ignoreSuperscript <span class="token boolean">true</span> -useCellText <span class="token boolean">false</span> -debuggingMode <span class="token boolean">false</span> -output results/crl2j/extracted -useShortNames <span class="token boolean">true</span>
+</code></pre>
+<p><em>Note that, with this option, you should run <code>java</code> included in JDK, not JRE. Otherwise, you get the following message:</em></p>
+<pre class=" language-java"><code class="prism  language-java">Exception in thread <span class="token string">"main"</span> java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>IllegalStateException
+        at ru<span class="token punctuation">.</span>icc<span class="token punctuation">.</span>td<span class="token punctuation">.</span>tabbyxl<span class="token punctuation">.</span>crl2j<span class="token punctuation">.</span>compiler<span class="token punctuation">.</span>CharSequenceCompiler<span class="token punctuation">.</span>&lt;init<span class="token operator">&gt;</span><span class="token punctuation">(</span>CharSequenceCompiler<span class="token punctuation">.</span>java<span class="token operator">:</span><span class="token number">44</span><span class="token punctuation">)</span>
+        at ru<span class="token punctuation">.</span>icc<span class="token punctuation">.</span>td<span class="token punctuation">.</span>tabbyxl<span class="token punctuation">.</span>crl2j<span class="token punctuation">.</span>RuleCodeGen<span class="token punctuation">.</span><span class="token function">compileAllRules</span><span class="token punctuation">(</span>RuleCodeGen<span class="token punctuation">.</span>java<span class="token operator">:</span><span class="token number">38</span><span class="token punctuation">)</span>
+        at ru<span class="token punctuation">.</span>icc<span class="token punctuation">.</span>td<span class="token punctuation">.</span>tabbyxl<span class="token punctuation">.</span>TabbyXL<span class="token punctuation">.</span><span class="token function">loadCRL2J</span><span class="token punctuation">(</span>TabbyXL<span class="token punctuation">.</span>java<span class="token operator">:</span><span class="token number">638</span><span class="token punctuation">)</span>
+        at ru<span class="token punctuation">.</span>icc<span class="token punctuation">.</span>td<span class="token punctuation">.</span>tabbyxl<span class="token punctuation">.</span>TabbyXL<span class="token punctuation">.</span><span class="token function">runRulesetWithCRL2J</span><span class="token punctuation">(</span>TabbyXL<span class="token punctuation">.</span>java<span class="token operator">:</span><span class="token number">648</span><span class="token punctuation">)</span>
+        at ru<span class="token punctuation">.</span>icc<span class="token punctuation">.</span>td<span class="token punctuation">.</span>tabbyxl<span class="token punctuation">.</span>TabbyXL<span class="token punctuation">.</span><span class="token function">main</span><span class="token punctuation">(</span>TabbyXL<span class="token punctuation">.</span>java<span class="token operator">:</span><span class="token number">487</span><span class="token punctuation">)</span>
+</code></pre>
+<p><em>If you see this message, then, please, check that you run <code>java</code> included in JDK. You also can try to use <code>"%JAVA_HOME%/bin/java"</code> instead of <code>java</code> as follows.</em></p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token string">"%JAVA_HOME%/bin/java"</span> -jar TabbyXL-1.1.0-jar-with-dependencies.jar -input data/tables.xlsx -ruleset results/crl2j/rules.crl -ignoreSuperscript <span class="token boolean">true</span> -useCellText <span class="token boolean">false</span> -debuggingMode <span class="token boolean">false</span> -output results/crl2j/extracted -useShortNames <span class="token boolean">true</span>
+</code></pre>
+<p>See the extracted data in the output directory <code>results/crl2j/extracted</code>.</p>
+<p><strong>Step 6.1.2.</strong> In order to evaluate the obtained results, run the executable JAR with the following command:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -cp TabbyXL-1.1.0-jar-with-dependencies.jar ru.icc.td.tabbyxl.evaluation.Evaluator results/crl2j/extracted data/gt
+</code></pre>
+<p>See the results of the performance evaluation in the console output.</p>
+<h3 id="with-drools-dsl">with Drools-DSL</h3>
+<p><strong>Step 6.2.1.</strong> In order to obtain results, run the executable JAR with the following command:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -jar TabbyXL-1.1.0-jar-with-dependencies.jar -input data/tables.xlsx -ruleset results/drools-dsl/rules.dslr -ignoreSuperscript <span class="token boolean">true</span> -useCellText <span class="token boolean">false</span> -debuggingMode <span class="token boolean">false</span> -output results/drools-dsl/extracted -useShortNames <span class="token boolean">true</span> -ruleEngineConfig results/drools-dsl/config/drools-dsl.properties
+</code></pre>
+<p><em>Note that the configuration file <code>results/drools-dsl/config/drools-dsl.properties</code> contains the reference to the DSL-specification <code>results/drools-dsl/config/crl.dsl</code> in <code>DSL</code> attribute as shown below:</em></p>
+<pre><code>RULE_SERVICE_PROVIDER = http://drools.org/
+RULE_SERVICE_PROVIDER_IMPL = org.drools.jsr94.rules.RuleServiceProviderImpl
+SOURCE = dslr
+DSL = results/drools-dsl/config/crl.dsl
+</code></pre>
+<p><em>If you change the current directory for running the program then you should also put the correct reference to the DSL-specification in <code>DSL</code> attribute.</em></p>
+<p>See the extracted data in the output directory <code>results/drools-dsl/extracted</code>.</p>
+<p><strong>Step 6.2.2.</strong> In order to evaluate the obtained results, run the executable JAR with the following command:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -cp TabbyXL-1.1.0-jar-with-dependencies.jar ru.icc.td.tabbyxl.evaluation.Evaluator results/drools-dsl/extracted data/gt
+</code></pre>
+<p>See the results of the performance evaluation in the console output.</p>
+<h3 id="with-drools">with Drools</h3>
+<p><strong>Step 6.3.1.</strong> In order to obtain results, run the executable JAR with the following command:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -jar TabbyXL-1.1.0-jar-with-dependencies.jar -input data/tables.xlsx -ruleset results/drools/rules.drl -ignoreSuperscript <span class="token boolean">true</span> -useCellText <span class="token boolean">false</span> -debuggingMode <span class="token boolean">false</span> -output results/drools/extracted -useShortNames <span class="token boolean">true</span> -ruleEngineConfig results/drools/config/drools.properties
+</code></pre>
+<p>See the extracted data in the output directory <code>results/drools/extracted</code>.</p>
+<p><strong>Step 6.3.2.</strong> In order to evaluate the obtained results, run the executable JAR with the following command:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -cp TabbyXL-1.1.0-jar-with-dependencies.jar ru.icc.td.tabbyxl.evaluation.Evaluator results/drools/extracted data/gt
+</code></pre>
+<p>See the results of the performance evaluation in the console output.</p>
+<h3 id="with-jess">with Jess</h3>
+<p><strong>Step 6.4.1.</strong> Install <a href="http://www.jessrules.com">Jess</a> firstly. Download it from <a href="http://www.jessrules.com/jess/download.shtml">the official site</a>. Unpack the library file <code>jess.jar</code> from the downloaded archive (<code>Jess71p2.zip</code>) and place it into the directory <code>results/jess/config/lib</code>.</p>
+<p><strong>Step 6.4.2.</strong> In order to obtain results, run the executable JAR with the following command on Windows:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -cp results/jess/config/lib/jess.jar<span class="token punctuation">;</span>TabbyXL-1.1.0-jar-with-dependencies.jar ru.icc.td.tabbyxl.TabbyXL -input data/tables.xlsx -ruleset results/jess/rules.clp -ignoreSuperscript <span class="token boolean">true</span> -useCellText <span class="token boolean">false</span> -debuggingMode <span class="token boolean">false</span> -output results/jess/extracted -useShortNames <span class="token boolean">true</span> -ruleEngineConfig results/jess/config/jess.properties
+</code></pre>
+<p>or run the executable JAR with the following command on Linux:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -cp results/jess/config/lib/jess.jar:TabbyXL-1.1.0-jar-with-dependencies.jar ru.icc.td.tabbyxl.TabbyXL -input data/tables.xlsx -ruleset results/jess/rules.clp -ignoreSuperscript <span class="token boolean">true</span> -useCellText <span class="token boolean">false</span> -debuggingMode <span class="token boolean">false</span> -output results/jess/extracted -useShortNames <span class="token boolean">true</span> -ruleEngineConfig results/jess/config/jess.properties
+</code></pre>
+<p>See the extracted data in the output directory <code>results/jess/extracted</code>.</p>
+<p><strong>Step 6.4.3.</strong> In order to evaluate the obtained results, run the executable JAR with the following command:</p>
+<pre class=" language-bash"><code class="prism  language-bash">java -cp TabbyXL-1.1.0-jar-with-dependencies.jar ru.icc.td.tabbyxl.evaluation.Evaluator results/jess/extracted data/gt
+</code></pre>
+<p>See the results of the performance evaluation in the console output.</p>
+<h3 id="results-of-the-performance-evaluation">Results of the Performance Evaluation</h3>
+<p>As a result of the performance evaluation, using any option (<code>CRL2J</code>, <code>Drools-DSL</code>, <code>Drools</code>, or <code>Jess</code>), you will see the following results at the end of the output:</p>
+<p>SUMMARY OF RESULTS:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th><code>entries</code></th>
+<th><code>labels</code></th>
+<th><code>entry-label pairs</code></th>
+<th><code>label-label pairs</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>recall</code></td>
+<td><code>0.9813217 (16602/16918)</code></td>
+<td><code>0.9965013 (4842/4859)</code></td>
+<td><code>0.9772999 (34270/35066)</code></td>
+<td><code>0.93888354 (1951/2078)</code></td>
+</tr>
+<tr>
+<td><code>precision</code></td>
+<td><code>0.99957854 (16602/16609)</code></td>
+<td><code>0.9363759 (4842/5171)</code></td>
+<td><code>0.9965396 (34270/34389)</code></td>
+<td><code>0.9784353 (1951/1994)</code></td>
+</tr>
+</tbody>
+</table><p>SUMMARY OF ERRORS:</p>
+<pre><code>Tables processed with errors, total = 25
+False negatives, total = 1256 in 25 tables
+False positives, total = 498 in 14 tables
+
+List of tables processed with errors:
+	1	C10006.xlsx	(false negatives, total = 3;	false positives, total = 0)
+	2	C10025.xlsx	(false negatives, total = 50;	false positives, total = 46)
+	3	C10034.xlsx	(false negatives, total = 15;	false positives, total = 13)
+	4	C10035.xlsx	(false negatives, total = 6;	false positives, total = 0)
+	5	C10036.xlsx	(false negatives, total = 3;	false positives, total = 0)
+	6	C10038.xlsx	(false negatives, total = 1;	false positives, total = 1)
+	7	C10047.xlsx	(false negatives, total = 12;	false positives, total = 14)
+	8	C10052.xlsx	(false negatives, total = 6;	false positives, total = 0)
+	9	C10053.xlsx	(false negatives, total = 4;	false positives, total = 0)
+	10	C10071.xlsx	(false negatives, total = 1;	false positives, total = 0)
+	11	C10079.xlsx	(false negatives, total = 7;	false positives, total = 8)
+	12	C10082.xlsx	(false negatives, total = 948;	false positives, total = 316)
+	13	C10083.xlsx	(false negatives, total = 3;	false positives, total = 0)
+	14	C10091.xlsx	(false negatives, total = 5;	false positives, total = 0)
+	15	C10094.xlsx	(false negatives, total = 3;	false positives, total = 0)
+	16	C10111.xlsx	(false negatives, total = 10;	false positives, total = 3)
+	17	C10117.xlsx	(false negatives, total = 4;	false positives, total = 2)
+	18	C10120.xlsx	(false negatives, total = 87;	false positives, total = 34)
+	19	C10121.xlsx	(false negatives, total = 8;	false positives, total = 0)
+	20	C10132.xlsx	(false negatives, total = 18;	false positives, total = 18)
+	21	C10133.xlsx	(false negatives, total = 26;	false positives, total = 16)
+	22	C10140.xlsx	(false negatives, total = 15;	false positives, total = 13)
+	23	C10146.xlsx	(false negatives, total = 9;	false positives, total = 9)
+	24	C10147.xlsx	(false negatives, total = 2;	false positives, total = 0)
+	25	C10159.xlsx	(false negatives, total = 10;	false positives, total = 5)
+</code></pre>
+<p>If you see the same output with all three options then it means that this experiment has been successfully reproduced.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>Nagy G. TANGO-DocLab web tables from international statistical sites, (Troy_200), 1, ID: Troy_200_1. <a href="http://tc11.cvc.uab.es/datasets/Troy_200_1">http://tc11.cvc.uab.es/datasets/Troy_200_1</a></li>
+<li>Embley D., Krishnamoorthy M., Nagy G., &amp; Seth S. (2016). Converting heterogeneous statistical tables on the web to searchable databases. Int. J. on Document Analysis and Recognition, 19(2), 119-138. <a href="https://doi.org/10.1007/s10032-016-0259-1">https://doi.org/10.1007/s10032-016-0259-1</a></li>
+<li>Shigarov A. &amp; Mikhailov A. (2017) Rule-Based Spreadsheet Data Transformation from Arbitrary to Relational Tables. Information Systems. Vol. 71, pp. 123-136. <a href="https://doi.org/10.1016/j.is.2017.08.004">https://doi.org/10.1016/j.is.2017.08.004</a></li>
+</ul>
+<h2 id="authors">Authors</h2>
+<ul>
+<li>Alexey Shigarov (<a href="mailto:shigarov@icc.ru">shigarov@icc.ru</a>)</li>
+<li>Vasiliy Khristyuk (<a href="mailto:khristyuk@icc.ru">khristyuk@icc.ru</a>)</li>
+</ul>
+

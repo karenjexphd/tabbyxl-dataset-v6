@@ -1,0 +1,3758 @@
+FILE: C10001.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (126/126)| 1.0 (31/31)| 1.0 (252/252)    | 1.0 (18/18)      |
+| precision| 1.0 (126/126)| 1.0 (31/31)| 1.0 (252/252)    | 1.0 (18/18)      |
+
+
+FILE: C10002.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (126/126)| 1.0 (25/25)| 1.0 (252/252)    | NaN (0/0)        |
+| precision| 1.0 (126/126)| 1.0 (25/25)| 1.0 (252/252)    | NaN (0/0)        |
+
+
+FILE: C10003.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (140/140)| 1.0 (33/33)| 1.0 (280/280)    | 1.0 (27/27)      |
+| precision| 1.0 (140/140)| 1.0 (33/33)| 1.0 (280/280)    | 1.0 (27/27)      |
+
+
+FILE: C10004.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (72/72)| 1.0 (22/22)| 1.0 (144/144)    | NaN (0/0)        |
+| precision| 1.0 (72/72)| 1.0 (22/22)| 1.0 (144/144)    | NaN (0/0)        |
+
+
+FILE: C10005.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10006.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (9/9)| 1.0 (24/24)      | 0.5 (3/6)        |
+| precision| 1.0 (12/12)| 1.0 (9/9)| 1.0 (24/24)      | 1.0 (3/3)        |
+
+Errors (false negatives, total = 3; false positives, total = 0):
+
+False negatives in the label-label pairs (total 3): 
+1	females [B8] -> sex [B5]
+2	males [B7] -> sex [B5]
+3	both sexes [B6] -> sex [B5]
+
+
+FILE: C10007.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (45/45)| 1.0 (15/15)| 1.0 (90/90)      | 1.0 (13/13)      |
+| precision| 1.0 (45/45)| 1.0 (15/15)| 1.0 (90/90)      | 1.0 (13/13)      |
+
+
+FILE: C10008.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (140/140)| 1.0 (28/28)| 1.0 (280/280)    | 1.0 (19/19)      |
+| precision| 1.0 (140/140)| 1.0 (28/28)| 1.0 (280/280)    | 1.0 (19/19)      |
+
+
+FILE: C10009.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (64/64)| 1.0 (21/21)| 1.0 (128/128)    | 1.0 (19/19)      |
+| precision| 1.0 (64/64)| 1.0 (21/21)| 1.0 (128/128)    | 1.0 (19/19)      |
+
+
+FILE: C10010.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | 1.0 (8/8)        |
+| precision| 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | 1.0 (8/8)        |
+
+
+FILE: C10011.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (201/201)| 1.0 (34/34)| 1.0 (402/402)    | 1.0 (12/12)      |
+| precision| 1.0 (201/201)| 1.0 (34/34)| 1.0 (402/402)    | 1.0 (12/12)      |
+
+
+FILE: C10012.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (15/15)| 1.0 (8/8)| 1.0 (30/30)      | NaN (0/0)        |
+| precision| 1.0 (15/15)| 1.0 (8/8)| 1.0 (30/30)      | NaN (0/0)        |
+
+
+FILE: C10013.xlsx
+Results:
+_________________________________________________________________________
+|          | entries  | labels     | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (9/9)| 1.0 (10/10)| 1.0 (27/27)      | NaN (0/0)        |
+| precision| 1.0 (9/9)| 1.0 (10/10)| 1.0 (27/27)      | NaN (0/0)        |
+
+
+FILE: C10014.xlsx
+Results:
+_______________________________________________________________________________
+|          | entries      | labels       | entry-label pairs| label-label pairs|
+|==============================================================================|
+| recall   | 1.0 (126/126)| 1.0 (317/317)| 1.0 (748/748)    | NaN (0/0)        |
+| precision| 1.0 (126/126)| 1.0 (317/317)| 1.0 (748/748)    | NaN (0/0)        |
+
+
+FILE: C10015.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (15/15)| 1.0 (8/8)| 1.0 (30/30)      | NaN (0/0)        |
+| precision| 1.0 (15/15)| 1.0 (8/8)| 1.0 (30/30)      | NaN (0/0)        |
+
+
+FILE: C10016.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (99/99)| 1.0 (21/21)| 1.0 (198/198)    | 1.0 (9/9)        |
+| precision| 1.0 (99/99)| 1.0 (21/21)| 1.0 (198/198)    | 1.0 (9/9)        |
+
+
+FILE: C10017.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (65/65)| 1.0 (18/18)| 1.0 (130/130)    | 1.0 (12/12)      |
+| precision| 1.0 (65/65)| 1.0 (18/18)| 1.0 (130/130)    | 1.0 (12/12)      |
+
+
+FILE: C10018.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (55/55)| 1.0 (17/17)| 1.0 (110/110)    | 1.0 (5/5)        |
+| precision| 1.0 (55/55)| 1.0 (17/17)| 1.0 (110/110)    | 1.0 (5/5)        |
+
+
+FILE: C10019.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (60/60)| 1.0 (20/20)| 1.0 (120/120)    | 1.0 (18/18)      |
+| precision| 1.0 (60/60)| 1.0 (20/20)| 1.0 (120/120)    | 1.0 (18/18)      |
+
+
+FILE: C10020.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (32/32)| 1.0 (12/12)| 1.0 (64/64)      | NaN (0/0)        |
+| precision| 1.0 (32/32)| 1.0 (12/12)| 1.0 (64/64)      | NaN (0/0)        |
+
+
+FILE: C10021.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (133/133)| 1.0 (25/25)| 1.0 (266/266)    | 1.0 (15/15)      |
+| precision| 1.0 (133/133)| 1.0 (25/25)| 1.0 (266/266)    | 1.0 (15/15)      |
+
+
+FILE: C10022.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (230/230)| 1.0 (35/35)| 1.0 (460/460)    | 1.0 (10/10)      |
+| precision| 1.0 (230/230)| 1.0 (35/35)| 1.0 (460/460)    | 1.0 (10/10)      |
+
+
+FILE: C10023.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+| precision| 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+
+
+FILE: C10024.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (170/170)| 1.0 (33/33)| 1.0 (340/340)    | 1.0 (25/25)      |
+| precision| 1.0 (170/170)| 1.0 (33/33)| 1.0 (340/340)    | 1.0 (25/25)      |
+
+
+FILE: C10025.xlsx
+Results:
+______________________________________________________________________________________
+|          | entries      | labels            | entry-label pairs  | label-label pairs|
+|=====================================================================================|
+| recall   | 1.0 (112/112)| 0.93333334 (28/30)| 0.7927928 (176/222)| 0.9230769 (24/26)|
+| precision| 1.0 (112/112)| 1.0 (28/28)       | 0.7927928 (176/222)| 1.0 (24/24)      |
+
+Errors (false negatives, total = 50; false positives, total = 46):
+
+False negatives in the labels (total 2): 
+1	2010.0 [G4]
+2	2009.0 [F4]
+
+False negatives in the entry-label pairs (total 46): 
+1	222 386,40 [G5] -> 2010 [G4]
+2	2 656,70 [F14] -> 2009 [F4]
+3	39 455,40 [G7] -> 2010 [G4]
+4	747,8 [F9] -> 2009 [F4]
+5	25,6 [G18] -> 2010 [G4]
+6	10 261,90 [F13] -> 2009 [F4]
+7	83 146,80 [G26] -> 2010 [G4]
+8	2009 [F4] -> 2009 [F4]
+9	259,2 [F19] -> 2009 [F4]
+10	6 431,70 [G20] -> 2010 [G4]
+11	1 743,40 [F6] -> 2009 [F4]
+12	1 072,60 [G11] -> 2010 [G4]
+13	18 505,50 [G8] -> 2010 [G4]
+14	622,3 [F17] -> 2009 [F4]
+15	37 006,40 [G25] -> 2010 [G4]
+16	211 605,00 [F5] -> 2009 [F4]
+17	5 316,10 [G21] -> 2010 [G4]
+18	513,4 [G24] -> 2010 [G4]
+19	763 [G9] -> 2010 [G4]
+20	5 776,20 [F21] -> 2009 [F4]
+21	3 820,90 [G12] -> 2010 [G4]
+22	22,5 [F18] -> 2009 [F4]
+23	18 168,30 [F8] -> 2009 [F4]
+24	2 126,20 [F23] -> 2009 [F4]
+25	10 138,50 [G13] -> 2010 [G4]
+26	31 698,70 [F25] -> 2009 [F4]
+27	2 823,10 [G14] -> 2010 [G4]
+28	1 745,80 [G6] -> 2010 [G4]
+29	2010 [G4] -> 2010 [G4]
+30	220,9 [G19] -> 2010 [G4]
+31	35 771,00 [F7] -> 2009 [F4]
+32	811,9 [G22] -> 2010 [G4]
+33	572,4 [F24] -> 2009 [F4]
+34	3 858,80 [G16] -> 2010 [G4]
+35	1 409,20 [F11] -> 2009 [F4]
+36	2 069,80 [G23] -> 2010 [G4]
+37	3 607,10 [F12] -> 2009 [F4]
+38	1 433,70 [F15] -> 2009 [F4]
+39	6 092,00 [F20] -> 2009 [F4]
+40	1 898,80 [F10] -> 2009 [F4]
+41	1 016,30 [F22] -> 2009 [F4]
+42	622,4 [G17] -> 2010 [G4]
+43	81 680,50 [F26] -> 2009 [F4]
+44	2 857,30 [G10] -> 2010 [G4]
+45	1 180,40 [G15] -> 2010 [G4]
+46	4 040,90 [F16] -> 2009 [F4]
+
+False positives in the entry-label pairs (total 46):
+1	5 316,10 [G21] -> construction intentions $ millions [G3]
+2	211 605,00 [F5] -> preliminary actual construction $ millions [F3]
+3	2 823,10 [G14] -> construction intentions $ millions [G3]
+4	811,9 [G22] -> construction intentions $ millions [G3]
+5	35 771,00 [F7] -> preliminary actual construction $ millions [F3]
+6	2009 [F4] -> preliminary actual construction $ millions [F3]
+7	1 898,80 [F10] -> preliminary actual construction $ millions [F3]
+8	1 016,30 [F22] -> preliminary actual construction $ millions [F3]
+9	2 126,20 [F23] -> preliminary actual construction $ millions [F3]
+10	3 607,10 [F12] -> preliminary actual construction $ millions [F3]
+11	622,4 [G17] -> construction intentions $ millions [G3]
+12	18 168,30 [F8] -> preliminary actual construction $ millions [F3]
+13	22,5 [F18] -> preliminary actual construction $ millions [F3]
+14	763 [G9] -> construction intentions $ millions [G3]
+15	3 820,90 [G12] -> construction intentions $ millions [G3]
+16	222 386,40 [G5] -> construction intentions $ millions [G3]
+17	4 040,90 [F16] -> preliminary actual construction $ millions [F3]
+18	10 138,50 [G13] -> construction intentions $ millions [G3]
+19	3 858,80 [G16] -> construction intentions $ millions [G3]
+20	513,4 [G24] -> construction intentions $ millions [G3]
+21	1 745,80 [G6] -> construction intentions $ millions [G3]
+22	10 261,90 [F13] -> preliminary actual construction $ millions [F3]
+23	572,4 [F24] -> preliminary actual construction $ millions [F3]
+24	1 180,40 [G15] -> construction intentions $ millions [G3]
+25	622,3 [F17] -> preliminary actual construction $ millions [F3]
+26	39 455,40 [G7] -> construction intentions $ millions [G3]
+27	37 006,40 [G25] -> construction intentions $ millions [G3]
+28	2 656,70 [F14] -> preliminary actual construction $ millions [F3]
+29	25,6 [G18] -> construction intentions $ millions [G3]
+30	6 092,00 [F20] -> preliminary actual construction $ millions [F3]
+31	1 072,60 [G11] -> construction intentions $ millions [G3]
+32	259,2 [F19] -> preliminary actual construction $ millions [F3]
+33	1 409,20 [F11] -> preliminary actual construction $ millions [F3]
+34	83 146,80 [G26] -> construction intentions $ millions [G3]
+35	6 431,70 [G20] -> construction intentions $ millions [G3]
+36	1 743,40 [F6] -> preliminary actual construction $ millions [F3]
+37	2 069,80 [G23] -> construction intentions $ millions [G3]
+38	31 698,70 [F25] -> preliminary actual construction $ millions [F3]
+39	2 857,30 [G10] -> construction intentions $ millions [G3]
+40	81 680,50 [F26] -> preliminary actual construction $ millions [F3]
+41	5 776,20 [F21] -> preliminary actual construction $ millions [F3]
+42	18 505,50 [G8] -> construction intentions $ millions [G3]
+43	220,9 [G19] -> construction intentions $ millions [G3]
+44	2010 [G4] -> construction intentions $ millions [G3]
+45	747,8 [F9] -> preliminary actual construction $ millions [F3]
+46	1 433,70 [F15] -> preliminary actual construction $ millions [F3]
+
+False negatives in the label-label pairs (total 2): 
+1	2010.0 [G4] -> construction intentions $ millions [G3]
+2	2009.0 [F4] -> preliminary actual construction $ millions [F3]
+
+
+FILE: C10026.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (76/76)| 1.0 (26/26)| 1.0 (152/152)    | 1.0 (24/24)      |
+| precision| 1.0 (76/76)| 1.0 (26/26)| 1.0 (152/152)    | 1.0 (24/24)      |
+
+
+FILE: C10027.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | NaN (0/0)        |
+| precision| 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | NaN (0/0)        |
+
+
+FILE: C10028.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (25/25)| 1.0 (10/10)| 1.0 (50/50)      | NaN (0/0)        |
+| precision| 1.0 (25/25)| 1.0 (10/10)| 1.0 (50/50)      | NaN (0/0)        |
+
+
+FILE: C10029.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (65/65)| 1.0 (18/18)| 1.0 (130/130)    | 1.0 (12/12)      |
+| precision| 1.0 (65/65)| 1.0 (18/18)| 1.0 (130/130)    | 1.0 (12/12)      |
+
+
+FILE: C10030.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (55/55)| 1.0 (16/16)| 1.0 (110/110)    | 1.0 (10/10)      |
+| precision| 1.0 (55/55)| 1.0 (16/16)| 1.0 (110/110)    | 1.0 (10/10)      |
+
+
+FILE: C10031.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | NaN (0/0)        |
+| precision| 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | NaN (0/0)        |
+
+
+FILE: C10032.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (64/64)| 1.0 (21/21)| 1.0 (128/128)    | 1.0 (19/19)      |
+| precision| 1.0 (64/64)| 1.0 (21/21)| 1.0 (128/128)    | 1.0 (19/19)      |
+
+
+FILE: C10033.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (93/93)| 1.0 (24/24)| 1.0 (186/186)    | 1.0 (16/16)      |
+| precision| 1.0 (93/93)| 1.0 (24/24)| 1.0 (186/186)    | 1.0 (16/16)      |
+
+
+FILE: C10034.xlsx
+Results:
+______________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs |
+|=============================================================================|
+| recall   | 1.0 (168/168)| 1.0 (46/46)| 1.0 (336/336)    | 0.63414633 (26/41)|
+| precision| 1.0 (168/168)| 1.0 (46/46)| 1.0 (336/336)    | 0.6666667 (26/39) |
+
+Errors (false negatives, total = 15; false positives, total = 13):
+
+False negatives in the label-label pairs (total 15): 
+1	females [B6] -> canada [B4]
+2	prince edward island [B10] -> canada [B4]
+3	british columbia [B34] -> canada [B4]
+4	nova scotia [B13] -> canada [B4]
+5	manitoba [B25] -> canada [B4]
+6	ontario [B22] -> canada [B4]
+7	nunavut [B43] -> canada [B4]
+8	saskatchewan [B28] -> canada [B4]
+9	northwest territories [B40] -> canada [B4]
+10	quebec [B19] -> canada [B4]
+11	new brunswick [B16] -> canada [B4]
+12	males [B5] -> canada [B4]
+13	alberta [B31] -> canada [B4]
+14	yukon territory [B37] -> canada [B4]
+15	newfoundland and labrador [B7] -> canada [B4]
+
+False positives in the label-label pairs (total 13):
+1	nunavut [B43] -> females [B6]
+2	prince edward island [B10] -> females [B6]
+3	alberta [B31] -> females [B6]
+4	nova scotia [B13] -> females [B6]
+5	newfoundland and labrador [B7] -> females [B6]
+6	saskatchewan [B28] -> females [B6]
+7	new brunswick [B16] -> females [B6]
+8	ontario [B22] -> females [B6]
+9	quebec [B19] -> females [B6]
+10	manitoba [B25] -> females [B6]
+11	british columbia [B34] -> females [B6]
+12	northwest territories [B40] -> females [B6]
+13	yukon territory [B37] -> females [B6]
+
+
+FILE: C10035.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (42/42)| 1.0 (15/15)| 1.0 (84/84)      | 0.45454547 (5/11)|
+| precision| 1.0 (42/42)| 1.0 (15/15)| 1.0 (84/84)      | 1.0 (5/5)        |
+
+Errors (false negatives, total = 6; false positives, total = 0):
+
+False negatives in the label-label pairs (total 6): 
+1	eastern finland [B9] -> province [B4]
+2	total [B5] -> province [B4]
+3	uusimaa [B6] -> province [B4]
+4	southern finland (excl. uusimaa) [B7] -> province [B4]
+5	oulu+lapland [B10] -> province [B4]
+6	western finland [B8] -> province [B4]
+
+
+FILE: C10036.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (28/28)| 1.0 (13/13)| 1.0 (56/56)      | 0.7 (7/10)       |
+| precision| 1.0 (28/28)| 1.0 (13/13)| 1.0 (56/56)      | 1.0 (7/7)        |
+
+Errors (false negatives, total = 3; false positives, total = 0):
+
+False negatives in the label-label pairs (total 3): 
+1	employees total [B5] -> employment relationship [B4]
+2	fixed-term job total [B10] -> employment relationship [B4]
+3	part-time job total [B11] -> employment relationship [B4]
+
+
+FILE: C10037.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (49/49)| 1.0 (23/23)| 1.0 (98/98)      | 1.0 (17/17)      |
+| precision| 1.0 (49/49)| 1.0 (23/23)| 1.0 (98/98)      | 1.0 (17/17)      |
+
+
+FILE: C10038.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (145/145)| 1.0 (35/35)| 1.0 (290/290)    | 0.9655172 (28/29)|
+| precision| 1.0 (145/145)| 1.0 (35/35)| 1.0 (290/290)    | 0.9655172 (28/29)|
+
+Errors (false negatives, total = 1; false positives, total = 1):
+
+False negatives in the label-label pairs (total 1): 
+1	information and communication technologies, manufacturing [B32] -> special aggregation [B31]
+
+False positives in the label-label pairs (total 1):
+1	information and communication technologies, manufacturing [B32] -> all industries [B3]
+
+
+FILE: C10039.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (49/49)| 1.0 (14/14)| 1.0 (98/98)      | NaN (0/0)        |
+| precision| 1.0 (49/49)| 1.0 (14/14)| 1.0 (98/98)      | NaN (0/0)        |
+
+
+FILE: C10040.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (64/64)| 1.0 (21/21)| 1.0 (128/128)    | 1.0 (4/4)        |
+| precision| 1.0 (64/64)| 1.0 (21/21)| 1.0 (128/128)    | 1.0 (4/4)        |
+
+
+FILE: C10041.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (125/125)| 1.0 (30/30)| 1.0 (250/250)    | NaN (0/0)        |
+| precision| 1.0 (125/125)| 1.0 (30/30)| 1.0 (250/250)    | NaN (0/0)        |
+
+
+FILE: C10042.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (60/60)| 1.0 (19/19)| 1.0 (120/120)    | 1.0 (12/12)      |
+| precision| 1.0 (60/60)| 1.0 (19/19)| 1.0 (120/120)    | 1.0 (12/12)      |
+
+
+FILE: C10043.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (89/89)| 1.0 (26/26)| 1.0 (178/178)    | 1.0 (20/20)      |
+| precision| 1.0 (89/89)| 1.0 (26/26)| 1.0 (178/178)    | 1.0 (20/20)      |
+
+
+FILE: C10044.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (228/228)| 1.0 (61/61)| 1.0 (456/456)    | NaN (0/0)        |
+| precision| 1.0 (228/228)| 1.0 (61/61)| 1.0 (456/456)    | NaN (0/0)        |
+
+
+FILE: C10045.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (80/80)| 1.0 (21/21)| 1.0 (160/160)    | 1.0 (15/15)      |
+| precision| 1.0 (80/80)| 1.0 (21/21)| 1.0 (160/160)    | 1.0 (15/15)      |
+
+
+FILE: C10046.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (152/152)| 1.0 (27/27)| 1.0 (304/304)    | NaN (0/0)        |
+| precision| 1.0 (152/152)| 1.0 (27/27)| 1.0 (304/304)    | NaN (0/0)        |
+
+
+FILE: C10047.xlsx
+Results:
+_______________________________________________________________________________________
+|          | entries      | labels            | entry-label pairs   | label-label pairs|
+|======================================================================================|
+| recall   | 1.0 (105/105)| 0.9230769 (24/26) | 0.95238096 (200/210)| NaN (0/0)        |
+| precision| 1.0 (105/105)| 0.85714287 (24/28)| 0.95238096 (200/210)| NaN (0/0)        |
+
+Errors (false negatives, total = 12; false positives, total = 14):
+
+False negatives in the labels (total 2): 
+1	percent change, 1990–2008 [B27]
+2	average annual growth rate, 1990–2008 [B29]
+
+False positives in the labels (total 4):
+1	average annual growth rate, [B29]
+2	percent change, [B27]
+3	1990–2008 [B28]
+4	1990–2008 [B30]
+
+False negatives in the entry-label pairs (total 10): 
+1	300 [F27] -> percent change, 1990–2008 [B27]
+2	185,3 [G27] -> percent change, 1990–2008 [B27]
+3	307,3 [D27] -> percent change, 1990–2008 [B27]
+4	7,7 [C29] -> average annual growth rate, 1990–2008 [B29]
+5	8 [F29] -> average annual growth rate, 1990–2008 [B29]
+6	8,1 [D29] -> average annual growth rate, 1990–2008 [B29]
+7	6 [G29] -> average annual growth rate, 1990–2008 [B29]
+8	282,6 [C27] -> percent change, 1990–2008 [B27]
+9	7,6 [E29] -> average annual growth rate, 1990–2008 [B29]
+10	274 [E27] -> percent change, 1990–2008 [B27]
+
+False positives in the entry-label pairs (total 10):
+1	7,6 [E29] -> average annual growth rate, [B29]
+2	300 [F27] -> percent change, [B27]
+3	7,7 [C29] -> average annual growth rate, [B29]
+4	8 [F29] -> average annual growth rate, [B29]
+5	282,6 [C27] -> percent change, [B27]
+6	6 [G29] -> average annual growth rate, [B29]
+7	185,3 [G27] -> percent change, [B27]
+8	8,1 [D29] -> average annual growth rate, [B29]
+9	307,3 [D27] -> percent change, [B27]
+10	274 [E27] -> percent change, [B27]
+
+
+FILE: C10048.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (50/50)| 1.0 (15/15)| 1.0 (100/100)    | NaN (0/0)        |
+| precision| 1.0 (50/50)| 1.0 (15/15)| 1.0 (100/100)    | NaN (0/0)        |
+
+
+FILE: C10049.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (36/36)| 1.0 (14/14)| 1.0 (72/72)      | 1.0 (10/10)      |
+| precision| 1.0 (36/36)| 1.0 (14/14)| 1.0 (72/72)      | 1.0 (10/10)      |
+
+
+FILE: C10050.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (87/87)| 1.0 (32/32)| 1.0 (174/174)    | NaN (0/0)        |
+| precision| 1.0 (87/87)| 1.0 (32/32)| 1.0 (174/174)    | NaN (0/0)        |
+
+
+FILE: C10051.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (36/36)| 1.0 (15/15)| 1.0 (72/72)      | 1.0 (4/4)        |
+| precision| 1.0 (36/36)| 1.0 (15/15)| 1.0 (72/72)      | 1.0 (4/4)        |
+
+
+FILE: C10052.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (42/42)| 1.0 (15/15)| 1.0 (84/84)      | 0.45454547 (5/11)|
+| precision| 1.0 (42/42)| 1.0 (15/15)| 1.0 (84/84)      | 1.0 (5/5)        |
+
+Errors (false negatives, total = 6; false positives, total = 0):
+
+False negatives in the label-label pairs (total 6): 
+1	eastern finland [B9] -> province [B4]
+2	total [B5] -> province [B4]
+3	uusimaa [B6] -> province [B4]
+4	southern finland (excl. uusimaa) [B7] -> province [B4]
+5	oulu+lapland [B10] -> province [B4]
+6	western finland [B8] -> province [B4]
+
+
+FILE: C10053.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (66/66)| 1.0 (20/20)| 1.0 (132/132)    | 0.6666667 (8/12) |
+| precision| 1.0 (66/66)| 1.0 (20/20)| 1.0 (132/132)    | 1.0 (8/8)        |
+
+Errors (false negatives, total = 4; false positives, total = 0):
+
+False negatives in the label-label pairs (total 4): 
+1	isced 5 a long/very long programmes (master level) [B11] -> tertiary level (isced 5/6) [B8]
+2	isced 5 a medium programmes (bachelor level) [B10] -> tertiary level (isced 5/6) [B8]
+3	second stage of tertiary education (isced 6) [B12] -> tertiary level (isced 5/6) [B8]
+4	isced 5 b programmes [B9] -> tertiary level (isced 5/6) [B8]
+
+
+FILE: C10054.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (306/306)| 1.0 (36/36)| 1.0 (612/612)    | 1.0 (17/17)      |
+| precision| 1.0 (306/306)| 1.0 (36/36)| 1.0 (612/612)    | 1.0 (17/17)      |
+
+
+FILE: C10055.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (105/105)| 1.0 (33/33)| 1.0 (210/210)    | 1.0 (24/24)      |
+| precision| 1.0 (105/105)| 1.0 (33/33)| 1.0 (210/210)    | 1.0 (24/24)      |
+
+
+FILE: C10056.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (125/125)| 1.0 (30/30)| 1.0 (250/250)    | 1.0 (23/23)      |
+| precision| 1.0 (125/125)| 1.0 (30/30)| 1.0 (250/250)    | 1.0 (23/23)      |
+
+
+FILE: C10057.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (75/75)| 1.0 (20/20)| 1.0 (150/150)    | 1.0 (12/12)      |
+| precision| 1.0 (75/75)| 1.0 (20/20)| 1.0 (150/150)    | 1.0 (12/12)      |
+
+
+FILE: C10058.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (160/160)| 1.0 (30/30)| 1.0 (320/320)    | 1.0 (6/6)        |
+| precision| 1.0 (160/160)| 1.0 (30/30)| 1.0 (320/320)    | 1.0 (6/6)        |
+
+
+FILE: C10059.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10060.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (35/35)| 1.0 (12/12)| 1.0 (70/70)      | 1.0 (6/6)        |
+| precision| 1.0 (35/35)| 1.0 (12/12)| 1.0 (70/70)      | 1.0 (6/6)        |
+
+
+FILE: C10061.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (60/60)| 1.0 (19/19)| 1.0 (120/120)    | 1.0 (13/13)      |
+| precision| 1.0 (60/60)| 1.0 (19/19)| 1.0 (120/120)    | 1.0 (13/13)      |
+
+
+FILE: C10062.xlsx
+Results:
+_________________________________________________________________________
+|          | entries  | labels     | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (9/9)| 1.0 (10/10)| 1.0 (27/27)      | NaN (0/0)        |
+| precision| 1.0 (9/9)| 1.0 (10/10)| 1.0 (27/27)      | NaN (0/0)        |
+
+
+FILE: C10063.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (110/110)| 1.0 (28/28)| 1.0 (220/220)    | 1.0 (26/26)      |
+| precision| 1.0 (110/110)| 1.0 (28/28)| 1.0 (220/220)    | 1.0 (26/26)      |
+
+
+FILE: C10064.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (140/140)| 1.0 (39/39)| 1.0 (420/420)    | NaN (0/0)        |
+| precision| 1.0 (140/140)| 1.0 (39/39)| 1.0 (420/420)    | NaN (0/0)        |
+
+
+FILE: C10065.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (145/145)| 1.0 (34/34)| 1.0 (290/290)    | 1.0 (26/26)      |
+| precision| 1.0 (145/145)| 1.0 (34/34)| 1.0 (290/290)    | 1.0 (26/26)      |
+
+
+FILE: C10066.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (130/130)| 1.0 (24/24)| 1.0 (260/260)    | 1.0 (10/10)      |
+| precision| 1.0 (130/130)| 1.0 (24/24)| 1.0 (260/260)    | 1.0 (10/10)      |
+
+
+FILE: C10067.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (109/109)| 1.0 (36/36)| 1.0 (218/218)    | 1.0 (4/4)        |
+| precision| 1.0 (109/109)| 1.0 (36/36)| 1.0 (218/218)    | 1.0 (4/4)        |
+
+
+FILE: C10068.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (23/23)| 1.0 (10/10)| 1.0 (46/46)      | NaN (0/0)        |
+| precision| 1.0 (23/23)| 1.0 (10/10)| 1.0 (46/46)      | NaN (0/0)        |
+
+
+FILE: C10069.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (11/11)      |
+| precision| 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (11/11)      |
+
+
+FILE: C10070.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (99/99)| 1.0 (36/36)| 1.0 (198/198)    | 1.0 (29/29)      |
+| precision| 1.0 (99/99)| 1.0 (36/36)| 1.0 (198/198)    | 1.0 (29/29)      |
+
+
+FILE: C10071.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | 0.875 (7/8)      |
+| precision| 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | 1.0 (7/7)        |
+
+Errors (false negatives, total = 1; false positives, total = 0):
+
+False negatives in the label-label pairs (total 1): 
+1	pigs [B5] -> canada [B4]
+
+
+FILE: C10072.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (15/15)| 1.0 (80/80)      | NaN (0/0)        |
+| precision| 1.0 (40/40)| 1.0 (15/15)| 1.0 (80/80)      | NaN (0/0)        |
+
+
+FILE: C10073.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (31/31)| 1.0 (12/12)| 1.0 (62/62)      | NaN (0/0)        |
+| precision| 1.0 (31/31)| 1.0 (12/12)| 1.0 (62/62)      | NaN (0/0)        |
+
+
+FILE: C10074.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (32/32)| 1.0 (18/18)| 1.0 (64/64)      | 1.0 (15/15)      |
+| precision| 1.0 (32/32)| 1.0 (18/18)| 1.0 (64/64)      | 1.0 (15/15)      |
+
+
+FILE: C10075.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (154/154)| 1.0 (40/40)| 1.0 (462/462)    | NaN (0/0)        |
+| precision| 1.0 (154/154)| 1.0 (40/40)| 1.0 (462/462)    | NaN (0/0)        |
+
+
+FILE: C10076.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | 1.0 (3/3)        |
+| precision| 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | 1.0 (3/3)        |
+
+
+FILE: C10077.xlsx
+Results:
+_______________________________________________________________________
+|          | entries  | labels   | entry-label pairs| label-label pairs|
+|======================================================================|
+| recall   | 1.0 (4/4)| 1.0 (5/5)| 1.0 (8/8)        | NaN (0/0)        |
+| precision| 1.0 (4/4)| 1.0 (5/5)| 1.0 (8/8)        | NaN (0/0)        |
+
+
+FILE: C10078.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (42/42)| 1.0 (15/15)| 1.0 (84/84)      | 1.0 (6/6)        |
+| precision| 1.0 (42/42)| 1.0 (15/15)| 1.0 (84/84)      | 1.0 (6/6)        |
+
+
+FILE: C10079.xlsx
+Results:
+______________________________________________________________________________________
+|          | entries      | labels           | entry-label pairs   | label-label pairs|
+|=====================================================================================|
+| recall   | 1.0 (132/132)| 0.96 (24/25)     | 0.97727275 (258/264)| NaN (0/0)        |
+| precision| 1.0 (132/132)| 0.9230769 (24/26)| 0.97727275 (258/264)| NaN (0/0)        |
+
+Errors (false negatives, total = 7; false positives, total = 8):
+
+False negatives in the labels (total 1): 
+1	percent change, 1990–2004 [B21]
+
+False positives in the labels (total 2):
+1	percent change, [B21]
+2	1990–2004 [B22]
+
+False negatives in the entry-label pairs (total 6): 
+1	224,4 [J21] -> percent change, 1990–2004 [B21]
+2	205,7 [D21] -> percent change, 1990–2004 [B21]
+3	157,4 [C21] -> percent change, 1990–2004 [B21]
+4	218,7 [I21] -> percent change, 1990–2004 [B21]
+5	211,2 [E21] -> percent change, 1990–2004 [B21]
+6	168,3 [H21] -> percent change, 1990–2004 [B21]
+
+False positives in the entry-label pairs (total 6):
+1	168,3 [H21] -> percent change, [B21]
+2	224,4 [J21] -> percent change, [B21]
+3	218,7 [I21] -> percent change, [B21]
+4	205,7 [D21] -> percent change, [B21]
+5	211,2 [E21] -> percent change, [B21]
+6	157,4 [C21] -> percent change, [B21]
+
+
+FILE: C10080.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (187/187)| 1.0 (35/35)| 1.0 (374/374)    | 1.0 (31/31)      |
+| precision| 1.0 (187/187)| 1.0 (35/35)| 1.0 (374/374)    | 1.0 (31/31)      |
+
+
+FILE: C10081.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (43/43)| 1.0 (15/15)| 1.0 (86/86)      | 1.0 (5/5)        |
+| precision| 1.0 (43/43)| 1.0 (15/15)| 1.0 (86/86)      | 1.0 (5/5)        |
+
+
+FILE: C10082.xlsx
+Results:
+___________________________________________________________________________________
+|          | entries    | labels             | entry-label pairs| label-label pairs|
+|==================================================================================|
+| recall   | 0.0 (0/316)| 1.0 (62/62)        | 0.0 (0/632)      | 1.0 (9/9)        |
+| precision| NaN (0/0)  | 0.16402116 (62/378)| NaN (0/0)        | 1.0 (9/9)        |
+
+Errors (false negatives, total = 948; false positives, total = 316):
+
+False negatives in the entries (total 316): 
+1	7 to 18 [C25]
+2	6 to 18 [D58]
+3	x [I52]
+4	x [I64]
+5	x [H55]
+6	x [H43]
+7	6 to 18 [F64]
+8	5 to 18 [E43]
+9	6 to 18 [D10]
+10	5 to 18 [G61]
+11	6 to 16 [D16]
+12	6 to 16 [G31]
+13	x [J18]
+14	6 to 16 [G55]
+15	6 to 16 [F34]
+16	7 to 16 [E37]
+17	7 to 16 [F46]
+18	6 to 16 [D60]
+19	6 to 16 [C63]
+20	5 to 18 [C49]
+21	7 to 17 [C28]
+22	x [H30]
+23	8 to 18 [G62]
+24	x [H54]
+25	7 to 16 [E38]
+26	6 to 16 [E26]
+27	8 to 17 [G51]
+28	5 to 16 [E14]
+29	7 to 18 [G50]
+30	6 to 16 [G32]
+31	6 to 16 [G44]
+32	5 to 17 [F54]
+33	7 to 17 [E21]
+34	6 to 16 [C40]
+35	7 to 17 [C27]
+36	6 to 16 [C52]
+37	7 to 16 [G20]
+38	7 to 17 [C39]
+39	5 to 17 [G9]
+40	6 to 18 [E57]
+41	6 to 18 [D48]
+42	6 to 16 [C8]
+43	x [J63]
+44	x [I54]
+45	7 to 17 [F21]
+46	8 to 17 [C62]
+47	5 to 16 [D14]
+48	6 to 16 [F32]
+49	6 to 16 [F44]
+50	6 to 16 [D26]
+51	5 to 17 [G54]
+52	6 to 18 [G19]
+53	7 to 16 [G65]
+54	7 to 16 [D38]
+55	7 to 17 [D27]
+56	7 to 17 [D39]
+57	7 to 16 [F20]
+58	7 to 18 [D13]
+59	6 to 18 [G64]
+60	6 to 18 [E58]
+61	7 to 18 [D25]
+62	x [I65]
+63	5 to 18 [F43]
+64	6 to 18 [E10]
+65	6 to 16 [C18]
+66	x [H56]
+67	6 to 16 [G42]
+68	5 to 16 [G30]
+69	6 to 16 [E24]
+70	7 to 16 [F45]
+71	7 to 16 [E36]
+72	7 to 16 [F33]
+73	7 to 16 [E12]
+74	6 to 17 [F56]
+75	5 to 18 [D49]
+76	5 to 18 [G13]
+77	x [H63]
+78	x [I60]
+79	7 to 18 [G25]
+80	6 to 16 [F26]
+81	x [I16]
+82	x [J49]
+83	x [I28]
+84	7 to 18 [C33]
+85	6 to 16 [C55]
+86	5 to 16 [F30]
+87	6 to 16 [D52]
+88	6 to 16 [C31]
+89	7 to 16 [E45]
+90	7 to 16 [D36]
+91	6 to 17 [G56]
+92	5 to 18 [G49]
+93	7 to 16 [E33]
+94	7 to 17 [G28]
+95	6 to 16 [D40]
+96	6 to 18 [F57]
+97	5 to 17 [E9]
+98	6 to 18 [E48]
+99	5 to 18 [F61]
+100	6 to 16 [G24]
+101	x [I15]
+102	x [I39]
+103	6 to 16 [E18]
+104	8 to 17 [C51]
+105	6 to 16 [C44]
+106	6 to 16 [D65]
+107	6 to 16 [C32]
+108	7 to 16 [C7]
+109	7 to 16 [C60]
+110	8 to 16 [E62]
+111	7 to 16 [D37]
+112	5 to 18 [D43]
+113	7 to 16 [E46]
+114	7 to 17 [G39]
+115	7 to 16 [E22]
+116	x [I62]
+117	6 to 18 [F58]
+118	6 to 18 [F10]
+119	x [I50]
+120	8 to 17 [D51]
+121	x [J27]
+122	6 to 16 [D18]
+123	7 to 18 [F50]
+124	7 to 16 [C6]
+125	6 to 16 [C65]
+126	x [I19]
+127	6 to 16 [F24]
+128	7 to 18 [G27]
+129	7 to 16 [D46]
+130	7 to 16 [C37]
+131	6 to 17 [G34]
+132	7 to 16 [D22]
+133	7 to 16 [C13]
+134	6 to 18 [C19]
+135	5 to 18 [G15]
+136	5 to 17 [F9]
+137	x [H52]
+138	x [I61]
+139	6 to 16 [E16]
+140	x [J14]
+141	8 to 17 [D62]
+142	6 to 18 [C64]
+143	7 to 16 [D7]
+144	6 to 16 [D63]
+145	6 to 16 [C42]
+146	5 to 16 [C14]
+147	7 to 16 [C38]
+148	7 to 16 [F65]
+149	6 to 16 [E60]
+150	7 to 16 [E20]
+151	5 to 18 [E15]
+152	6 to 18 [F48]
+153	6 to 18 [G57]
+154	x [I48]
+155	x [H39]
+156	7 to 18 [D50]
+157	x [H27]
+158	6 to 16 [F18]
+159	x [I12]
+160	x [J45]
+161	x [I24]
+162	x [H15]
+163	x [I36]
+164	7 to 16 [D6]
+165	6 to 16 [D44]
+166	6 to 16 [D32]
+167	7 to 16 [E65]
+168	6 to 17 [G12]
+169	6 to 16 [F8]
+170	6 to 17 [C56]
+171	7 to 17 [F39]
+172	7 to 16 [D20]
+173	5 to 18 [F13]
+174	7 to 18 [G22]
+175	5 to 17 [C9]
+176	6 to 18 [G58]
+177	7 to 18 [F25]
+178	6 to 18 [G10]
+179	x [I8]
+180	6 to 16 [G16]
+181	x [H14]
+182	6 to 16 [G60]
+183	5 to 16 [E54]
+184	7 to 16 [E7]
+185	6 to 16 [F63]
+186	6 to 16 [E42]
+187	5 to 16 [E30]
+188	6 to 16 [C24]
+189	7 to 16 [C36]
+190	7 to 16 [D33]
+191	6 to 18 [D19]
+192	7 to 16 [D45]
+193	5 to 18 [F49]
+194	7 to 16 [D21]
+195	7 to 16 [G37]
+196	x [H61]
+197	x [I26]
+198	5 to 18 [E61]
+199	x [I38]
+200	6 to 18 [D64]
+201	6 to 16 [F16]
+202	x [H9]
+203	7 to 16 [E6]
+204	x [I14]
+205	6 to 16 [E63]
+206	6 to 16 [D42]
+207	5 to 16 [D30]
+208	5 to 16 [D54]
+209	5 to 18 [C43]
+210	6 to 18 [F38]
+211	7 to 16 [C45]
+212	6 to 16 [G8]
+213	6 to 17 [C34]
+214	6 to 16 [F60]
+215	7 to 16 [C21]
+216	5 to 17 [D9]
+217	7 to 18 [F27]
+218	8 to 17 [E51]
+219	x [I37]
+220	x [I49]
+221	x [H16]
+222	5 to 16 [G14]
+223	6 to 16 [G26]
+224	7 to 18 [E50]
+225	x [J34]
+226	x [I13]
+227	7 to 16 [F7]
+228	x [I25]
+229	6 to 16 [E52]
+230	6 to 16 [D31]
+231	6 to 16 [E40]
+232	6 to 16 [D55]
+233	6 to 18 [G48]
+234	7 to 16 [C46]
+235	7 to 17 [F28]
+236	7 to 16 [C22]
+237	5 to 18 [F15]
+238	6 to 16 [D8]
+239	x [I32]
+240	6 to 18 [C57]
+241	8 to 17 [F51]
+242	5 to 16 [F14]
+243	x [I56]
+244	7 to 16 [F6]
+245	6 to 16 [G63]
+246	6 to 16 [F42]
+247	5 to 18 [C61]
+248	6 to 16 [D24]
+249	6 to 18 [E19]
+250	x [I31]
+251	x [I43]
+252	6 to 18 [E64]
+253	7 to 16 [G36]
+254	6 to 18 [C58]
+255	7 to 18 [C50]
+256	6 to 18 [C10]
+257	x [I55]
+258	x [J6]
+259	7 to 16 [G7]
+260	7 to 16 [C20]
+261	6 to 16 [G40]
+262	6 to 16 [G52]
+263	6 to 16 [F31]
+264	6 to 16 [E34]
+265	6 to 16 [F55]
+266	6 to 16 [C16]
+267	6 to 17 [D56]
+268	6 to 18 [G38]
+269	5 to 18 [D15]
+270	7 to 17 [D28]
+271	7 to 17 [E28]
+272	7 to 18 [E13]
+273	8 to 18 [F62]
+274	5 to 18 [G43]
+275	7 to 18 [F22]
+276	x [I10]
+277	6 to 16 [E8]
+278	7 to 18 [E25]
+279	x [H49]
+280	x [J9]
+281	x [I22]
+282	x [H13]
+283	7 to 16 [G6]
+284	x [I58]
+285	6 to 16 [F40]
+286	6 to 16 [F52]
+287	6 to 16 [E31]
+288	6 to 16 [E55]
+289	7 to 16 [G33]
+290	7 to 16 [F12]
+291	7 to 16 [F36]
+292	7 to 16 [G45]
+293	6 to 17 [E56]
+294	5 to 18 [E49]
+295	7 to 17 [E39]
+296	6 to 18 [C48]
+297	x [J30]
+298	x [I21]
+299	7 to 17 [G21]
+300	7 to 16 [F37]
+301	6 to 18 [D57]
+302	x [J54]
+303	x [I33]
+304	6 to 16 [G18]
+305	x [I57]
+306	x [H48]
+307	6 to 16 [E32]
+308	6 to 16 [C26]
+309	5 to 18 [D61]
+310	6 to 16 [E44]
+311	5 to 16 [C30]
+312	5 to 16 [C54]
+313	6 to 17 [D34]
+314	7 to 16 [G46]
+315	7 to 17 [E27]
+316	6 to 18 [F19]
+
+False positives in the labels (total 316):
+1	7 to 18 [C25]
+2	x [I52]
+3	6 to 18 [D58]
+4	x [H55]
+5	x [I64]
+6	x [H43]
+7	6 to 18 [D10]
+8	5 to 18 [E43]
+9	6 to 18 [F64]
+10	5 to 18 [G61]
+11	6 to 16 [D16]
+12	6 to 16 [G31]
+13	x [J18]
+14	6 to 16 [F34]
+15	6 to 16 [G55]
+16	7 to 16 [E37]
+17	7 to 16 [F46]
+18	6 to 16 [D60]
+19	6 to 16 [C63]
+20	5 to 18 [C49]
+21	7 to 17 [C28]
+22	x [H30]
+23	x [H54]
+24	8 to 18 [G62]
+25	7 to 16 [E38]
+26	6 to 16 [E26]
+27	8 to 17 [G51]
+28	5 to 16 [E14]
+29	7 to 18 [G50]
+30	6 to 16 [G32]
+31	6 to 16 [G44]
+32	7 to 17 [E21]
+33	5 to 17 [F54]
+34	7 to 17 [C27]
+35	6 to 16 [C40]
+36	6 to 16 [C52]
+37	7 to 16 [G20]
+38	5 to 17 [G9]
+39	7 to 17 [C39]
+40	6 to 18 [D48]
+41	6 to 18 [E57]
+42	6 to 16 [C8]
+43	x [J63]
+44	x [I54]
+45	7 to 17 [F21]
+46	8 to 17 [C62]
+47	5 to 16 [D14]
+48	6 to 16 [F32]
+49	6 to 16 [F44]
+50	6 to 16 [D26]
+51	6 to 18 [G19]
+52	5 to 17 [G54]
+53	7 to 16 [D38]
+54	7 to 16 [G65]
+55	7 to 17 [D27]
+56	7 to 16 [F20]
+57	7 to 17 [D39]
+58	7 to 18 [D13]
+59	7 to 18 [D25]
+60	6 to 18 [E58]
+61	6 to 18 [G64]
+62	x [I65]
+63	5 to 18 [F43]
+64	6 to 18 [E10]
+65	6 to 16 [C18]
+66	x [H56]
+67	6 to 16 [G42]
+68	6 to 16 [E24]
+69	5 to 16 [G30]
+70	7 to 16 [E36]
+71	7 to 16 [F45]
+72	7 to 16 [F33]
+73	7 to 16 [E12]
+74	5 to 18 [D49]
+75	6 to 17 [F56]
+76	5 to 18 [G13]
+77	x [H63]
+78	7 to 18 [G25]
+79	x [I60]
+80	x [I16]
+81	6 to 16 [F26]
+82	x [I28]
+83	x [J49]
+84	7 to 18 [C33]
+85	5 to 16 [F30]
+86	6 to 16 [C55]
+87	6 to 16 [D52]
+88	6 to 16 [C31]
+89	7 to 16 [E45]
+90	7 to 16 [D36]
+91	6 to 17 [G56]
+92	7 to 17 [G28]
+93	7 to 16 [E33]
+94	5 to 18 [G49]
+95	6 to 16 [D40]
+96	5 to 17 [E9]
+97	6 to 18 [F57]
+98	6 to 18 [E48]
+99	x [I15]
+100	6 to 16 [G24]
+101	5 to 18 [F61]
+102	6 to 16 [E18]
+103	x [I39]
+104	8 to 17 [C51]
+105	6 to 16 [C44]
+106	7 to 16 [C7]
+107	6 to 16 [C32]
+108	6 to 16 [D65]
+109	7 to 16 [C60]
+110	8 to 16 [E62]
+111	7 to 16 [D37]
+112	5 to 18 [D43]
+113	7 to 16 [E46]
+114	7 to 16 [E22]
+115	7 to 17 [G39]
+116	x [I62]
+117	6 to 18 [F58]
+118	6 to 18 [F10]
+119	x [I50]
+120	8 to 17 [D51]
+121	x [J27]
+122	6 to 16 [D18]
+123	7 to 18 [F50]
+124	7 to 16 [C6]
+125	6 to 16 [C65]
+126	x [I19]
+127	6 to 16 [F24]
+128	7 to 18 [G27]
+129	7 to 16 [C37]
+130	7 to 16 [D46]
+131	7 to 16 [C13]
+132	7 to 16 [D22]
+133	6 to 17 [G34]
+134	6 to 18 [C19]
+135	5 to 18 [G15]
+136	5 to 17 [F9]
+137	x [H52]
+138	x [I61]
+139	6 to 16 [E16]
+140	x [J14]
+141	8 to 17 [D62]
+142	6 to 18 [C64]
+143	7 to 16 [D7]
+144	6 to 16 [D63]
+145	6 to 16 [C42]
+146	5 to 16 [C14]
+147	7 to 16 [C38]
+148	7 to 16 [F65]
+149	7 to 16 [E20]
+150	6 to 16 [E60]
+151	5 to 18 [E15]
+152	6 to 18 [F48]
+153	6 to 18 [G57]
+154	x [H39]
+155	x [I48]
+156	x [H27]
+157	7 to 18 [D50]
+158	6 to 16 [F18]
+159	x [I12]
+160	x [H15]
+161	x [I24]
+162	x [J45]
+163	x [I36]
+164	7 to 16 [D6]
+165	6 to 16 [D44]
+166	6 to 16 [D32]
+167	6 to 16 [F8]
+168	6 to 17 [G12]
+169	7 to 16 [E65]
+170	7 to 16 [D20]
+171	7 to 17 [F39]
+172	6 to 17 [C56]
+173	5 to 18 [F13]
+174	5 to 17 [C9]
+175	7 to 18 [G22]
+176	7 to 18 [F25]
+177	6 to 18 [G58]
+178	6 to 18 [G10]
+179	x [I8]
+180	6 to 16 [G16]
+181	x [H14]
+182	5 to 16 [E54]
+183	6 to 16 [G60]
+184	7 to 16 [E7]
+185	6 to 16 [F63]
+186	6 to 16 [E42]
+187	6 to 16 [C24]
+188	5 to 16 [E30]
+189	7 to 16 [C36]
+190	6 to 18 [D19]
+191	7 to 16 [D33]
+192	7 to 16 [D45]
+193	5 to 18 [F49]
+194	7 to 16 [D21]
+195	7 to 16 [G37]
+196	x [H61]
+197	x [I26]
+198	x [I38]
+199	5 to 18 [E61]
+200	6 to 16 [F16]
+201	6 to 18 [D64]
+202	x [H9]
+203	7 to 16 [E6]
+204	x [I14]
+205	6 to 16 [D42]
+206	6 to 16 [E63]
+207	5 to 16 [D30]
+208	5 to 16 [D54]
+209	5 to 18 [C43]
+210	6 to 18 [F38]
+211	6 to 16 [G8]
+212	7 to 16 [C45]
+213	6 to 17 [C34]
+214	7 to 16 [C21]
+215	6 to 16 [F60]
+216	5 to 17 [D9]
+217	7 to 18 [F27]
+218	x [I37]
+219	8 to 17 [E51]
+220	5 to 16 [G14]
+221	x [H16]
+222	x [I49]
+223	6 to 16 [G26]
+224	7 to 18 [E50]
+225	7 to 16 [F7]
+226	x [I13]
+227	x [J34]
+228	x [I25]
+229	6 to 16 [D31]
+230	6 to 16 [E52]
+231	6 to 16 [E40]
+232	6 to 16 [D55]
+233	6 to 18 [G48]
+234	7 to 16 [C46]
+235	7 to 16 [C22]
+236	7 to 17 [F28]
+237	5 to 18 [F15]
+238	6 to 16 [D8]
+239	x [I32]
+240	6 to 18 [C57]
+241	5 to 16 [F14]
+242	8 to 17 [F51]
+243	x [I56]
+244	7 to 16 [F6]
+245	6 to 16 [F42]
+246	6 to 16 [G63]
+247	6 to 16 [D24]
+248	5 to 18 [C61]
+249	6 to 18 [E19]
+250	x [I31]
+251	x [I43]
+252	6 to 18 [E64]
+253	7 to 16 [G36]
+254	6 to 18 [C58]
+255	7 to 18 [C50]
+256	6 to 18 [C10]
+257	x [I55]
+258	x [J6]
+259	7 to 16 [G7]
+260	7 to 16 [C20]
+261	6 to 16 [G40]
+262	6 to 16 [F31]
+263	6 to 16 [G52]
+264	6 to 16 [E34]
+265	6 to 16 [C16]
+266	6 to 16 [F55]
+267	6 to 17 [D56]
+268	6 to 18 [G38]
+269	5 to 18 [D15]
+270	7 to 17 [D28]
+271	7 to 17 [E28]
+272	7 to 18 [E13]
+273	6 to 16 [E8]
+274	x [I10]
+275	7 to 18 [F22]
+276	5 to 18 [G43]
+277	8 to 18 [F62]
+278	7 to 18 [E25]
+279	x [H49]
+280	x [J9]
+281	7 to 16 [G6]
+282	x [H13]
+283	x [I22]
+284	x [I58]
+285	6 to 16 [F40]
+286	6 to 16 [F52]
+287	6 to 16 [E31]
+288	6 to 16 [E55]
+289	7 to 16 [F12]
+290	7 to 16 [G33]
+291	7 to 16 [F36]
+292	7 to 16 [G45]
+293	5 to 18 [E49]
+294	6 to 17 [E56]
+295	7 to 17 [E39]
+296	6 to 18 [C48]
+297	x [J30]
+298	x [I21]
+299	7 to 17 [G21]
+300	7 to 16 [F37]
+301	6 to 18 [D57]
+302	x [I33]
+303	x [J54]
+304	6 to 16 [G18]
+305	x [H48]
+306	x [I57]
+307	6 to 16 [E32]
+308	6 to 16 [C26]
+309	5 to 16 [C30]
+310	6 to 16 [E44]
+311	5 to 18 [D61]
+312	5 to 16 [C54]
+313	6 to 17 [D34]
+314	7 to 16 [G46]
+315	6 to 18 [F19]
+316	7 to 17 [E27]
+
+False negatives in the entry-label pairs (total 632): 
+1	6 to 17 [E56] -> 2004 [E4]
+2	6 to 18 [F48] -> ohio [B48]
+3	7 to 17 [C39] -> 2000 [C4]
+4	x [J6] -> alabama [B6]
+5	6 to 16 [G52] -> rhode island [B52]
+6	7 to 16 [C21] -> illinois [B21]
+7	7 to 16 [E22] -> 2004 [E4]
+8	5 to 16 [G30] -> 2007 [G4]
+9	6 to 16 [G8] -> arizona [B8]
+10	5 to 17 [D9] -> arkansas [B9]
+11	5 to 16 [F30] -> 2006 [F4]
+12	6 to 16 [E16] -> 2004 [E4]
+13	5 to 16 [E30] -> maryland [B30]
+14	5 to 18 [E43] -> 2004 [E4]
+15	7 to 16 [C45] -> 2000 [C4]
+16	6 to 18 [G58] -> utah [B58]
+17	7 to 17 [G28] -> maine [B28]
+18	7 to 18 [C33] -> minnesota [B33]
+19	7 to 16 [D21] -> illinois [B21]
+20	6 to 16 [G26] -> kentucky [B26]
+21	6 to 16 [E34] -> 2004 [E4]
+22	6 to 16 [C63] -> west virginia [B63]
+23	7 to 16 [G7] -> alaska [B7]
+24	6 to 16 [E44] -> 2004 [E4]
+25	x [I33] -> minnesota [B33]
+26	7 to 16 [C36] -> 2000 [C4]
+27	7 to 17 [F28] -> 2006 [F4]
+28	5 to 16 [E54] -> south carolina [B54]
+29	5 to 16 [F30] -> maryland [B30]
+30	x [I15] -> district of columbia [B15]
+31	6 to 16 [F8] -> arizona [B8]
+32	5 to 18 [F61] -> virginia [B61]
+33	5 to 16 [C14] -> 2000 [C4]
+34	6 to 16 [D31] -> 2002 [D4]
+35	5 to 16 [D54] -> 2002 [D4]
+36	6 to 16 [F18] -> 2006 [F4]
+37	x [I57] -> texas [B57]
+38	7 to 18 [D25] -> 2002 [D4]
+39	x [H9] -> attendance required [H4]
+40	6 to 16 [C31] -> massachusetts [B31]
+41	x [I28] -> maine [B28]
+42	6 to 16 [D60] -> 2002 [D4]
+43	6 to 16 [E18] -> georgia [B18]
+44	x [H14] -> attendance
+required [H4]
+45	6 to 18 [D48] -> 2002 [D4]
+46	6 to 16 [G55] -> 2007 [G4]
+47	x [I54] -> south carolina [B54]
+48	6 to 16 [D8] -> arizona [B8]
+49	6 to 16 [G44] -> new york [B44]
+50	x [I50] -> half day [I5]
+51	6 to 18 [D19] -> 2002 [D4]
+52	6 to 18 [D10] -> 2002 [D4]
+53	7 to 16 [E12] -> 2004 [E4]
+54	x [H52] -> rhode island [B52]
+55	7 to 18 [C33] -> 2000 [C4]
+56	5 to 16 [G30] -> maryland [B30]
+57	7 to 17 [E27] -> louisiana [B27]
+58	5 to 18 [G61] -> virginia [B61]
+59	x [I52] -> half day [I5]
+60	7 to 16 [D7] -> 2002 [D4]
+61	6 to 16 [D32] -> 2002 [D4]
+62	7 to 17 [G28] -> 2007 [G4]
+63	6 to 17 [F56] -> tennessee [B56]
+64	6 to 16 [D52] -> rhode island [B52]
+65	6 to 16 [E26] -> 2004 [E4]
+66	6 to 16 [E52] -> 2004 [E4]
+67	7 to 16 [G33] -> 2007 [G4]
+68	6 to 16 [D65] -> wyoming [B65]
+69	5 to 18 [C43] -> new mexico [B43]
+70	x [I8] -> half day [I5]
+71	x [I22] -> half day [I5]
+72	6 to 16 [E24] -> iowa [B24]
+73	6 to 18 [F19] -> hawaii [B19]
+74	6 to 17 [G12] -> 2007 [G4]
+75	6 to 18 [C19] -> hawaii [B19]
+76	6 to 16 [E44] -> new york [B44]
+77	5 to 18 [C61] -> virginia [B61]
+78	6 to 16 [F55] -> south dakota [B55]
+79	5 to 18 [D49] -> oklahoma [B49]
+80	x [H43] -> new mexico [B43]
+81	5 to 18 [C49] -> 2000 [C4]
+82	8 to 17 [F51] -> 2006 [F4]
+83	6 to 16 [G40] -> new hampshire [B40]
+84	7 to 16 [C37] -> 2000 [C4]
+85	7 to 16 [C60] -> vermont [B60]
+86	5 to 18 [F43] -> new mexico [B43]
+87	7 to 17 [C28] -> maine [B28]
+88	5 to 18 [F15] -> district of columbia [B15]
+89	6 to 16 [D8] -> 2002 [D4]
+90	5 to 18 [E15] -> district of columbia [B15]
+91	7 to 16 [E33] -> minnesota [B33]
+92	7 to 17 [D39] -> nevada [B39]
+93	7 to 18 [G27] -> louisiana [B27]
+94	6 to 16 [F16] -> florida [B16]
+95	6 to 18 [E10] -> california [B10]
+96	x [H63] -> attendance required [H4]
+97	7 to 18 [G22] -> 2007 [G4]
+98	6 to 16 [E16] -> florida [B16]
+99	x [H48] -> ohio [B48]
+100	6 to 18 [E58] -> 2004 [E4]
+101	5 to 18 [E49] -> oklahoma [B49]
+102	7 to 16 [D37] -> montana [B37]
+103	x [J30] -> maryland [B30]
+104	5 to 17 [G54] -> south carolina [B54]
+105	6 to 16 [F18] -> georgia [B18]
+106	7 to 16 [C46] -> north dakota [B46]
+107	7 to 16 [G36] -> missouri [B36]
+108	6 to 18 [D58] -> utah [B58]
+109	x [I24] -> half day [I5]
+110	x [I54] -> half day [I5]
+111	6 to 17 [D34] -> 2002 [D4]
+112	6 to 16 [D32] -> michigan [B32]
+113	6 to 16 [C44] -> new york [B44]
+114	6 to 16 [D63] -> west virginia [B63]
+115	6 to 16 [D26] -> kentucky [B26]
+116	x [I25] -> half day [I5]
+117	x [I55] -> half day [I5]
+118	6 to 16 [F60] -> vermont [B60]
+119	6 to 16 [E42] -> new jersey [B42]
+120	x [I65] -> half day [I5]
+121	6 to 16 [D24] -> 2002 [D4]
+122	7 to 16 [E45] -> north carolina [B45]
+123	7 to 16 [D7] -> alaska [B7]
+124	7 to 16 [E20] -> 2004 [E4]
+125	6 to 16 [F8] -> 2006 [F4]
+126	6 to 16 [C24] -> iowa [B24]
+127	5 to 17 [G9] -> arkansas [B9]
+128	5 to 18 [E61] -> 2004 [E4]
+129	x [H39] -> attendance required [H4]
+130	7 to 17 [F28] -> maine [B28]
+131	6 to 16 [F63] -> 2006 [F4]
+132	5 to 16 [C30] -> maryland [B30]
+133	7 to 17 [G39] -> nevada [B39]
+134	6 to 16 [E8] -> arizona [B8]
+135	6 to 16 [F26] -> kentucky [B26]
+136	7 to 16 [D38] -> nebraska [B38]
+137	7 to 16 [E6] -> alabama [B6]
+138	7 to 16 [E36] -> missouri [B36]
+139	x [I55] -> south dakota [B55]
+140	5 to 18 [G49] -> oklahoma [B49]
+141	6 to 16 [G18] -> 2007 [G4]
+142	7 to 16 [G45] -> north carolina [B45]
+143	x [J27] -> full day [J5]
+144	6 to 17 [G56] -> tennessee [B56]
+145	x [H30] -> maryland [B30]
+146	x [H27] -> louisiana [B27]
+147	x [J54] -> full day [J5]
+148	7 to 17 [G39] -> 2007 [G4]
+149	7 to 16 [E65] -> wyoming [B65]
+150	8 to 17 [D62] -> washington [B62]
+151	x [J14] -> full day [J5]
+152	5 to 18 [E61] -> virginia [B61]
+153	6 to 16 [E60] -> vermont [B60]
+154	7 to 16 [C38] -> 2000 [C4]
+155	x [I56] -> tennessee [B56]
+156	6 to 18 [E57] -> 2004 [E4]
+157	6 to 16 [E42] -> 2004 [E4]
+158	x [I19] -> hawaii [B19]
+159	6 to 16 [G44] -> 2007 [G4]
+160	x [I21] -> half day [I5]
+161	x [H13] -> attendance required [H4]
+162	7 to 18 [G50] -> 2007 [G4]
+163	7 to 16 [G46] -> north dakota [B46]
+164	6 to 16 [F32] -> michigan [B32]
+165	x [I24] -> iowa [B24]
+166	5 to 16 [C14] -> delaware [B14]
+167	8 to 17 [D51] -> pennsylvania [B51]
+168	x [I38] -> half day [I5]
+169	6 to 18 [D64] -> 2002 [D4]
+170	5 to 18 [D15] -> 2002 [D4]
+171	x [I28] -> half day [I5]
+172	7 to 16 [C13] -> connecticut [B13]
+173	7 to 18 [C50] -> 2000 [C4]
+174	x [H15] -> district of columbia [B15]
+175	5 to 16 [F14] -> 2006 [F4]
+176	x [I58] -> half day [I5]
+177	7 to 16 [E37] -> montana [B37]
+178	x [I8] -> arizona [B8]
+179	x [I33] -> half day [I5]
+180	5 to 16 [E30] -> 2004 [E4]
+181	x [I10] -> california [B10]
+182	5 to 16 [E14] -> delaware [B14]
+183	7 to 17 [F39] -> nevada [B39]
+184	x [I61] -> half day [I5]
+185	6 to 18 [C57] -> texas [B57]
+186	6 to 16 [G24] -> iowa [B24]
+187	5 to 17 [E9] -> 2004 [E4]
+188	8 to 18 [F62] -> 2006 [F4]
+189	x [I60] -> half day [I5]
+190	5 to 16 [C54] -> south carolina [B54]
+191	7 to 16 [D36] -> 2002 [D4]
+192	7 to 17 [D27] -> louisiana [B27]
+193	5 to 18 [D61] -> 2002 [D4]
+194	5 to 17 [D9] -> 2002 [D4]
+195	7 to 16 [G20] -> idaho [B20]
+196	7 to 18 [D50] -> oregon [B50]
+197	7 to 16 [D45] -> 2002 [D4]
+198	5 to 18 [F43] -> 2006 [F4]
+199	6 to 18 [F64] -> 2006 [F4]
+200	6 to 16 [E18] -> 2004 [E4]
+201	7 to 18 [F25] -> kansas [B25]
+202	x [H55] -> attendance required [H4]
+203	6 to 17 [D56] -> 2002 [D4]
+204	6 to 16 [C31] -> 2000 [C4]
+205	6 to 16 [F44] -> 2006 [F4]
+206	6 to 18 [D48] -> ohio [B48]
+207	6 to 16 [E55] -> 2004 [E4]
+208	5 to 17 [F54] -> 2006 [F4]
+209	7 to 16 [F20] -> idaho [B20]
+210	7 to 16 [D36] -> missouri [B36]
+211	6 to 18 [E19] -> 2004 [E4]
+212	6 to 18 [C10] -> california [B10]
+213	7 to 17 [C28] -> 2000 [C4]
+214	7 to 16 [D46] -> 2002 [D4]
+215	6 to 16 [E60] -> 2004 [E4]
+216	5 to 16 [E54] -> 2004 [E4]
+217	7 to 18 [D13] -> 2002 [D4]
+218	7 to 18 [E25] -> 2004 [E4]
+219	7 to 17 [F39] -> 2006 [F4]
+220	6 to 16 [C32] -> 2000 [C4]
+221	5 to 18 [G49] -> 2007 [G4]
+222	5 to 16 [F14] -> delaware [B14]
+223	x [I12] -> half day [I5]
+224	7 to 16 [D45] -> north carolina [B45]
+225	7 to 16 [F6] -> alabama [B6]
+226	6 to 16 [F40] -> new hampshire [B40]
+227	6 to 16 [E52] -> rhode island [B52]
+228	7 to 17 [C27] -> 2000 [C4]
+229	x [I32] -> half day [I5]
+230	6 to 16 [D26] -> 2002 [D4]
+231	7 to 17 [E21] -> illinois [B21]
+232	5 to 17 [F9] -> 2006 [F4]
+233	6 to 16 [E34] -> mississippi [B34]
+234	6 to 16 [D31] -> massachusetts [B31]
+235	6 to 18 [G19] -> hawaii [B19]
+236	6 to 16 [F52] -> rhode island [B52]
+237	6 to 18 [C48] -> 2000 [C4]
+238	6 to 16 [F52] -> 2006 [F4]
+239	x [I12] -> colorado [B12]
+240	x [J49] -> full day [J5]
+241	6 to 16 [F40] -> 2006 [F4]
+242	8 to 17 [G51] -> 2007 [G4]
+243	x [I37] -> montana [B37]
+244	6 to 16 [C26] -> 2000 [C4]
+245	5 to 18 [F13] -> connecticut [B13]
+246	x [I58] -> utah [B58]
+247	x [H63] -> west virginia [B63]
+248	7 to 16 [E22] -> indiana [B22]
+249	5 to 18 [G15] -> district of columbia [B15]
+250	5 to 18 [D15] -> district of columbia [B15]
+251	6 to 18 [F58] -> 2006 [F4]
+252	6 to 18 [G48] -> ohio [B48]
+253	x [J6] -> full day [J5]
+254	x [I61] -> virginia [B61]
+255	x [H49] -> attendance required [H4]
+256	6 to 17 [G34] -> 2007 [G4]
+257	6 to 16 [C65] -> wyoming [B65]
+258	x [I39] -> half day [I5]
+259	x [H16] -> florida [B16]
+260	x [I26] -> half day [I5]
+261	6 to 16 [F42] -> new jersey [B42]
+262	7 to 16 [D46] -> north dakota [B46]
+263	x [I13] -> half day [I5]
+264	x [J63] -> west virginia [B63]
+265	7 to 16 [C45] -> north carolina [B45]
+266	7 to 17 [D28] -> maine [B28]
+267	5 to 18 [C49] -> oklahoma [B49]
+268	7 to 18 [D25] -> kansas [B25]
+269	x [H61] -> attendance required [H4]
+270	8 to 18 [G62] -> washington [B62]
+271	6 to 18 [F10] -> california [B10]
+272	x [I60] -> vermont [B60]
+273	8 to 17 [E51] -> 2004 [E4]
+274	6 to 16 [G63] -> 2007 [G4]
+275	5 to 18 [F49] -> oklahoma [B49]
+276	6 to 18 [C10] -> 2000 [C4]
+277	7 to 16 [D20] -> 2002 [D4]
+278	x [J49] -> oklahoma [B49]
+279	5 to 18 [E43] -> new mexico [B43]
+280	7 to 16 [G33] -> minnesota [B33]
+281	7 to 17 [E28] -> maine [B28]
+282	7 to 18 [F50] -> oregon [B50]
+283	7 to 16 [C22] -> indiana [B22]
+284	x [I65] -> wyoming [B65]
+285	7 to 16 [F65] -> 2006 [F4]
+286	7 to 18 [F50] -> 2006 [F4]
+287	7 to 16 [C46] -> 2000 [C4]
+288	6 to 16 [G52] -> 2007 [G4]
+289	7 to 18 [E13] -> 2004 [E4]
+290	7 to 16 [G7] -> 2007 [G4]
+291	6 to 16 [D24] -> iowa [B24]
+292	6 to 16 [E55] -> south dakota [B55]
+293	6 to 18 [E64] -> 2004 [E4]
+294	x [H39] -> nevada [B39]
+295	6 to 16 [E32] -> michigan [B32]
+296	x [J27] -> louisiana [B27]
+297	7 to 16 [F12] -> colorado [B12]
+298	6 to 16 [F55] -> 2006 [F4]
+299	7 to 16 [C38] -> nebraska [B38]
+300	6 to 16 [C24] -> 2000 [C4]
+301	6 to 16 [F42] -> 2006 [F4]
+302	5 to 17 [C9] -> 2000 [C4]
+303	6 to 18 [G64] -> 2007 [G4]
+304	6 to 16 [E26] -> kentucky [B26]
+305	7 to 16 [E7] -> alaska [B7]
+306	7 to 16 [D38] -> 2002 [D4]
+307	7 to 16 [D21] -> 2002 [D4]
+308	5 to 18 [F49] -> 2006 [F4]
+309	6 to 16 [E63] -> 2004 [E4]
+310	x [H48] -> attendance required [H4]
+311	6 to 16 [D16] -> 2002 [D4]
+312	7 to 16 [G6] -> alabama [B6]
+313	6 to 17 [E56] -> tennessee [B56]
+314	5 to 18 [G43] -> 2007 [G4]
+315	6 to 16 [D44] -> new york [B44]
+316	6 to 18 [C64] -> wisconsin [B64]
+317	5 to 16 [D30] -> maryland [B30]
+318	7 to 17 [F21] -> 2006 [F4]
+319	x [H54] -> attendance required [H4]
+320	x [H16] -> attendance required [H4]
+321	7 to 16 [D37] -> 2002 [D4]
+322	7 to 18 [F27] -> louisiana [B27]
+323	8 to 17 [E51] -> pennsylvania [B51]
+324	7 to 16 [D22] -> 2002 [D4]
+325	6 to 16 [G32] -> 2007 [G4]
+326	6 to 16 [F32] -> 2006 [F4]
+327	5 to 18 [G13] -> 2007 [G4]
+328	5 to 18 [F13] -> 2006 [F4]
+329	7 to 17 [C27] -> louisiana [B27]
+330	7 to 16 [C7] -> 2000 [C4]
+331	5 to 16 [E14] -> 2004 [E4]
+332	x [J30] -> full day [J5]
+333	6 to 18 [F57] -> 2006 [F4]
+334	5 to 18 [C61] -> 2000 [C4]
+335	x [H56] -> attendance required [H4]
+336	6 to 16 [D55] -> 2002 [D4]
+337	x [I19] -> half day [I5]
+338	5 to 17 [F54] -> south carolina [B54]
+339	x [I21] -> illinois [B21]
+340	6 to 16 [F31] -> massachusetts [B31]
+341	7 to 18 [C50] -> oregon [B50]
+342	7 to 17 [E39] -> 2004 [E4]
+343	6 to 16 [F60] -> 2006 [F4]
+344	6 to 17 [C56] -> 2000 [C4]
+345	6 to 18 [F38] -> 2006 [F4]
+346	6 to 16 [D40] -> new hampshire [B40]
+347	7 to 18 [F22] -> indiana [B22]
+348	7 to 18 [G25] -> kansas [B25]
+349	6 to 18 [G57] -> 2007 [G4]
+350	x [H55] -> south dakota [B55]
+351	6 to 16 [F34] -> mississippi [B34]
+352	6 to 17 [C34] -> mississippi [B34]
+353	6 to 16 [C52] -> 2000 [C4]
+354	5 to 16 [D30] -> 2002 [D4]
+355	7 to 16 [E45] -> 2004 [E4]
+356	6 to 18 [F48] -> 2006 [F4]
+357	6 to 18 [G10] -> 2007 [G4]
+358	6 to 16 [D55] -> south dakota [B55]
+359	6 to 16 [D18] -> 2002 [D4]
+360	x [H15] -> attendance required [H4]
+361	7 to 16 [E46] -> 2004 [E4]
+362	7 to 17 [D28] -> 2002 [D4]
+363	x [I49] -> half day [I5]
+364	6 to 16 [G8] -> 2007 [G4]
+365	6 to 18 [F38] -> nebraska [B38]
+366	x [I31] -> massachusetts [B31]
+367	x [H52] -> attendance required [H4]
+368	7 to 16 [G20] -> 2007 [G4]
+369	7 to 16 [C13] -> 2000 [C4]
+370	7 to 16 [F7] -> alaska [B7]
+371	7 to 16 [G6] -> 2007 [G4]
+372	6 to 16 [C16] -> florida [B16]
+373	5 to 18 [G13] -> connecticut [B13]
+374	7 to 16 [E7] -> 2004 [E4]
+375	x [H43] -> attendance required [H4]
+376	7 to 18 [F25] -> 2006 [F4]
+377	6 to 18 [C58] -> utah [B58]
+378	x [I32] -> michigan [B32]
+379	6 to 18 [G38] -> nebraska [B38]
+380	x [I43] -> new mexico [B43]
+381	6 to 16 [G60] -> 2007 [G4]
+382	7 to 18 [D13] -> connecticut [B13]
+383	7 to 17 [D27] -> 2002 [D4]
+384	7 to 16 [C6] -> 2000 [C4]
+385	6 to 18 [D10] -> california [B10]
+386	7 to 18 [G27] -> 2007 [G4]
+387	7 to 16 [D33] -> 2002 [D4]
+388	x [H30] -> attendance required [H4]
+389	x [I13] -> connecticut [B13]
+390	6 to 18 [F10] -> 2006 [F4]
+391	7 to 16 [C7] -> alaska [B7]
+392	x [J63] -> full day [J5]
+393	6 to 17 [D56] -> tennessee [B56]
+394	6 to 16 [F31] -> 2006 [F4]
+395	6 to 18 [G48] -> 2007 [G4]
+396	6 to 18 [F19] -> 2006 [F4]
+397	6 to 16 [C18] -> georgia [B18]
+398	6 to 18 [E19] -> hawaii [B19]
+399	x [H61] -> virginia [B61]
+400	x [H13] -> connecticut [B13]
+401	6 to 16 [G40] -> 2007 [G4]
+402	6 to 16 [F24] -> 2006 [F4]
+403	7 to 16 [F33] -> minnesota [B33]
+404	6 to 16 [C42] -> 2000 [C4]
+405	6 to 18 [G58] -> 2007 [G4]
+406	5 to 17 [F9] -> arkansas [B9]
+407	8 to 18 [F62] -> washington [B62]
+408	6 to 18 [F58] -> utah [B58]
+409	x [I22] -> indiana [B22]
+410	7 to 16 [E65] -> 2004 [E4]
+411	6 to 16 [D63] -> 2002 [D4]
+412	6 to 18 [D64] -> wisconsin [B64]
+413	7 to 16 [D20] -> idaho [B20]
+414	6 to 18 [E64] -> wisconsin [B64]
+415	7 to 16 [F37] -> montana [B37]
+416	x [I49] -> oklahoma [B49]
+417	6 to 16 [G18] -> georgia [B18]
+418	7 to 18 [E50] -> 2004 [E4]
+419	x [J14] -> delaware [B14]
+420	x [I14] -> half day [I5]
+421	6 to 16 [F24] -> iowa [B24]
+422	7 to 16 [C20] -> 2000 [C4]
+423	7 to 16 [F12] -> 2006 [F4]
+424	5 to 18 [E49] -> 2004 [E4]
+425	6 to 16 [E8] -> 2004 [E4]
+426	8 to 17 [D51] -> 2002 [D4]
+427	7 to 16 [G37] -> montana [B37]
+428	7 to 17 [G21] -> 2007 [G4]
+429	7 to 16 [C37] -> montana [B37]
+430	7 to 18 [F27] -> 2006 [F4]
+431	x [I15] -> half day [I5]
+432	6 to 18 [G19] -> 2007 [G4]
+433	8 to 17 [D62] -> 2002 [D4]
+434	6 to 16 [D16] -> florida [B16]
+435	6 to 16 [E40] -> 2004 [E4]
+436	7 to 18 [G25] -> 2007 [G4]
+437	6 to 18 [G57] -> texas [B57]
+438	6 to 16 [G31] -> 2007 [G4]
+439	7 to 16 [G37] -> 2007 [G4]
+440	7 to 16 [E38] -> 2004 [E4]
+441	6 to 18 [C57] -> 2000 [C4]
+442	6 to 16 [C16] -> 2000 [C4]
+443	7 to 17 [G21] -> illinois [B21]
+444	7 to 16 [C21] -> 2000 [C4]
+445	7 to 16 [F45] -> north carolina [B45]
+446	6 to 18 [G10] -> california [B10]
+447	6 to 16 [G42] -> 2007 [G4]
+448	7 to 17 [E39] -> nevada [B39]
+449	7 to 16 [E12] -> colorado [B12]
+450	7 to 16 [C22] -> 2000 [C4]
+451	7 to 16 [E20] -> idaho [B20]
+452	5 to 17 [E9] -> arkansas [B9]
+453	6 to 16 [F34] -> 2006 [F4]
+454	6 to 16 [E63] -> west virginia [B63]
+455	5 to 18 [F15] -> 2006 [F4]
+456	6 to 16 [D65] -> 2002 [D4]
+457	x [J34] -> full day [J5]
+458	7 to 16 [G65] -> 2007 [G4]
+459	8 to 17 [F51] -> pennsylvania [B51]
+460	7 to 16 [E46] -> north dakota [B46]
+461	6 to 16 [G16] -> florida [B16]
+462	7 to 17 [E21] -> 2004 [E4]
+463	6 to 16 [F63] -> west virginia [B63]
+464	x [H14] -> delaware [B14]
+465	7 to 16 [G65] -> wyoming [B65]
+466	7 to 16 [E37] -> 2004 [E4]
+467	5 to 17 [C9] -> arkansas [B9]
+468	5 to 16 [D54] -> south carolina [B54]
+469	6 to 18 [C58] -> 2000 [C4]
+470	6 to 18 [E48] -> ohio [B48]
+471	6 to 16 [C44] -> 2000 [C4]
+472	7 to 16 [E36] -> 2004 [E4]
+473	x [J34] -> mississippi [B34]
+474	x [I48] -> half day [I5]
+475	x [I31] -> half day [I5]
+476	7 to 16 [F65] -> wyoming [B65]
+477	6 to 16 [D60] -> vermont [B60]
+478	6 to 16 [C42] -> new jersey [B42]
+479	x [J45] -> north carolina [B45]
+480	6 to 16 [G63] -> west virginia [B63]
+481	5 to 17 [G9] -> 2007 [G4]
+482	7 to 16 [C36] -> missouri [B36]
+483	6 to 16 [C18] -> 2000 [C4]
+484	6 to 16 [C55] -> 2000 [C4]
+485	x [I48] -> ohio [B48]
+486	x [I36] -> missouri [B36]
+487	6 to 17 [C56] -> tennessee [B56]
+488	x [I64] -> wisconsin [B64]
+489	x [H27] -> attendance required [H4]
+490	5 to 18 [D43] -> 2002 [D4]
+491	6 to 16 [G16] -> 2007 [G4]
+492	6 to 16 [F16] -> 2006 [F4]
+493	5 to 16 [D14] -> 2002 [D4]
+494	8 to 18 [G62] -> 2007 [G4]
+495	7 to 18 [G22] -> indiana [B22]
+496	5 to 16 [D14] -> delaware [B14]
+497	6 to 16 [G32] -> michigan [B32]
+498	6 to 18 [C19] -> 2000 [C4]
+499	7 to 16 [D6] -> alabama [B6]
+500	7 to 18 [C25] -> kansas [B25]
+501	7 to 17 [F21] -> illinois [B21]
+502	7 to 16 [G36] -> 2007 [G4]
+503	5 to 16 [C30] -> 2000 [C4]
+504	x [I26] -> kentucky [B26]
+505	x [J45] -> full day [J5]
+506	7 to 17 [D39] -> 2002 [D4]
+507	6 to 17 [G56] -> 2007 [G4]
+508	7 to 17 [C39] -> nevada [B39]
+509	x [I62] -> washington [B62]
+510	7 to 18 [G50] -> oregon [B50]
+511	7 to 16 [C6] -> alabama [B6]
+512	7 to 16 [G46] -> 2007 [G4]
+513	7 to 17 [E28] -> 2004 [E4]
+514	5 to 16 [G14] -> 2007 [G4]
+515	7 to 18 [C25] -> 2000 [C4]
+516	6 to 16 [D52] -> 2002 [D4]
+517	6 to 17 [D34] -> mississippi [B34]
+518	7 to 16 [F45] -> 2006 [F4]
+519	6 to 17 [C34] -> 2000 [C4]
+520	x [I38] -> nebraska [B38]
+521	6 to 18 [E48] -> 2004 [E4]
+522	6 to 18 [F57] -> texas [B57]
+523	5 to 16 [G14] -> delaware [B14]
+524	x [I64] -> half day [I5]
+525	6 to 16 [G60] -> vermont [B60]
+526	6 to 16 [D18] -> georgia [B18]
+527	5 to 18 [D43] -> new mexico [B43]
+528	x [H56] -> tennessee [B56]
+529	6 to 16 [F26] -> 2006 [F4]
+530	5 to 18 [G61] -> 2007 [G4]
+531	6 to 17 [G12] -> colorado [B12]
+532	6 to 16 [C40] -> 2000 [C4]
+533	7 to 17 [E27] -> 2004 [E4]
+534	6 to 16 [G26] -> 2007 [G4]
+535	x [I10] -> half day [I5]
+536	7 to 16 [E33] -> 2004 [E4]
+537	x [I62] -> half day [I5]
+538	6 to 16 [C52] -> rhode island [B52]
+539	7 to 16 [C60] -> 2000 [C4]
+540	6 to 18 [E10] -> 2004 [E4]
+541	x [H54] -> south carolina [B54]
+542	x [I52] -> rhode island [B52]
+543	6 to 16 [E31] -> massachusetts [B31]
+544	x [I57] -> half day [I5]
+545	6 to 16 [E31] -> 2004 [E4]
+546	6 to 18 [C48] -> ohio [B48]
+547	x [I37] -> half day [I5]
+548	x [J9] -> full day [J5]
+549	6 to 16 [G42] -> new jersey [B42]
+550	6 to 16 [E32] -> 2004 [E4]
+551	x [J18] -> full day [J5]
+552	7 to 16 [F46] -> 2006 [F4]
+553	5 to 16 [C54] -> 2000 [C4]
+554	6 to 18 [D57] -> texas [B57]
+555	5 to 17 [G54] -> 2007 [G4]
+556	x [I50] -> oregon [B50]
+557	6 to 18 [D19] -> hawaii [B19]
+558	6 to 16 [G24] -> 2007 [G4]
+559	x [I16] -> florida [B16]
+560	7 to 16 [D6] -> 2002 [D4]
+561	7 to 16 [C20] -> idaho [B20]
+562	6 to 16 [C63] -> 2000 [C4]
+563	6 to 18 [F64] -> wisconsin [B64]
+564	6 to 16 [C32] -> michigan [B32]
+565	8 to 16 [E62] -> 2004 [E4]
+566	x [J18] -> georgia [B18]
+567	x [I14] -> delaware [B14]
+568	6 to 16 [E24] -> 2004 [E4]
+569	8 to 17 [C62] -> 2000 [C4]
+570	6 to 16 [D42] -> 2002 [D4]
+571	7 to 18 [F22] -> 2006 [F4]
+572	6 to 16 [C8] -> 2000 [C4]
+573	7 to 16 [D33] -> minnesota [B33]
+574	6 to 16 [C26] -> kentucky [B26]
+575	6 to 16 [E40] -> new hampshire [B40]
+576	7 to 16 [D22] -> indiana [B22]
+577	7 to 16 [E6] -> 2004 [E4]
+578	7 to 18 [E50] -> oregon [B50]
+579	6 to 16 [D40] -> 2002 [D4]
+580	7 to 18 [E25] -> kansas [B25]
+581	7 to 16 [F33] -> 2006 [F4]
+582	6 to 16 [F44] -> new york [B44]
+583	7 to 18 [E13] -> connecticut [B13]
+584	6 to 16 [G31] -> massachusetts [B31]
+585	6 to 16 [C55] -> south dakota [B55]
+586	5 to 18 [D49] -> 2002 [D4]
+587	6 to 18 [G64] -> wisconsin [B64]
+588	7 to 16 [F7] -> 2006 [F4]
+589	8 to 17 [C62] -> washington [B62]
+590	6 to 16 [C40] -> new hampshire [B40]
+591	7 to 16 [F37] -> 2006 [F4]
+592	x [I56] -> half day [I5]
+593	x [J54] -> south carolina [B54]
+594	x [I43] -> half day [I5]
+595	x [I36] -> half day [I5]
+596	6 to 16 [G55] -> south dakota [B55]
+597	8 to 16 [E62] -> washington [B62]
+598	8 to 17 [C51] -> pennsylvania [B51]
+599	6 to 17 [G34] -> mississippi [B34]
+600	6 to 18 [E57] -> texas [B57]
+601	5 to 18 [G15] -> 2007 [G4]
+602	7 to 18 [D50] -> 2002 [D4]
+603	6 to 18 [D57] -> 2002 [D4]
+604	6 to 16 [D42] -> new jersey [B42]
+605	8 to 17 [C51] -> 2000 [C4]
+606	x [I16] -> half day [I5]
+607	7 to 16 [G45] -> 2007 [G4]
+608	5 to 18 [F61] -> 2006 [F4]
+609	7 to 16 [F6] -> 2006 [F4]
+610	6 to 16 [D44] -> 2002 [D4]
+611	x [H49] -> oklahoma [B49]
+612	5 to 18 [C43] -> 2000 [C4]
+613	x [H9] -> arkansas [B9]
+614	8 to 17 [G51] -> pennsylvania [B51]
+615	6 to 18 [D58] -> 2002 [D4]
+616	6 to 18 [G38] -> 2007 [G4]
+617	5 to 18 [G43] -> new mexico [B43]
+618	7 to 16 [F36] -> 2006 [F4]
+619	5 to 18 [E15] -> 2004 [E4]
+620	x [J9] -> arkansas [B9]
+621	7 to 16 [F46] -> north dakota [B46]
+622	7 to 16 [E38] -> nebraska [B38]
+623	6 to 17 [F56] -> 2006 [F4]
+624	7 to 16 [F20] -> 2006 [F4]
+625	6 to 18 [C64] -> 2000 [C4]
+626	x [I25] -> kansas [B25]
+627	6 to 16 [C65] -> 2000 [C4]
+628	x [I39] -> nevada [B39]
+629	7 to 16 [F36] -> missouri [B36]
+630	5 to 18 [D61] -> virginia [B61]
+631	6 to 18 [E58] -> utah [B58]
+632	6 to 16 [C8] -> arizona [B8]
+
+
+FILE: C10083.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (72/72)| 1.0 (29/29)| 1.0 (144/144)    | 0.8888889 (24/27)|
+| precision| 1.0 (72/72)| 1.0 (29/29)| 1.0 (144/144)    | 1.0 (24/24)      |
+
+Errors (false negatives, total = 3; false positives, total = 0):
+
+False negatives in the label-label pairs (total 3): 
+1	total repairs and renovations [B6] -> period of construction [B5]
+2	materials [B22] -> period of construction [B5]
+3	contract work [B14] -> period of construction [B5]
+
+
+FILE: C10084.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+| precision| 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+
+
+FILE: C10085.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (120/120)| 1.0 (29/29)| 1.0 (240/240)    | 1.0 (22/22)      |
+| precision| 1.0 (120/120)| 1.0 (29/29)| 1.0 (240/240)    | 1.0 (22/22)      |
+
+
+FILE: C10086.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (213/213)| 1.0 (48/48)| 1.0 (426/426)    | 1.0 (42/42)      |
+| precision| 1.0 (213/213)| 1.0 (48/48)| 1.0 (426/426)    | 1.0 (42/42)      |
+
+
+FILE: C10087.xlsx
+Results:
+_________________________________________________________________________
+|          | entries  | labels     | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (9/9)| 1.0 (10/10)| 1.0 (27/27)      | NaN (0/0)        |
+| precision| 1.0 (9/9)| 1.0 (10/10)| 1.0 (27/27)      | NaN (0/0)        |
+
+
+FILE: C10088.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+| precision| 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+
+
+FILE: C10089.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (120/120)| 1.0 (23/23)| 1.0 (240/240)    | 1.0 (5/5)        |
+| precision| 1.0 (120/120)| 1.0 (23/23)| 1.0 (240/240)    | 1.0 (5/5)        |
+
+
+FILE: C10090.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (69/69)| 1.0 (27/27)| 1.0 (138/138)    | 1.0 (23/23)      |
+| precision| 1.0 (69/69)| 1.0 (27/27)| 1.0 (138/138)    | 1.0 (23/23)      |
+
+
+FILE: C10091.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (35/35)| 1.0 (14/14)| 1.0 (70/70)      | 0.5 (5/10)       |
+| precision| 1.0 (35/35)| 1.0 (14/14)| 1.0 (70/70)      | 1.0 (5/5)        |
+
+Errors (false negatives, total = 5; false positives, total = 0):
+
+False negatives in the label-label pairs (total 5): 
+1	total [B5] -> employees [B4]
+2	11-99 persons [B8] -> employees [B4]
+3	5-10 persons [B7] -> employees [B4]
+4	1-4 persons [B6] -> employees [B4]
+5	more than 100 [B9] -> employees [B4]
+
+
+FILE: C10092.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (150/150)| 1.0 (34/34)| 1.0 (300/300)    | 1.0 (6/6)        |
+| precision| 1.0 (150/150)| 1.0 (34/34)| 1.0 (300/300)    | 1.0 (6/6)        |
+
+
+FILE: C10093.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (32/32)| 1.0 (18/18)| 1.0 (64/64)      | NaN (0/0)        |
+| precision| 1.0 (32/32)| 1.0 (18/18)| 1.0 (64/64)      | NaN (0/0)        |
+
+
+FILE: C10094.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (313/313)| 1.0 (48/48)| 1.0 (626/626)    | 0.9285714 (39/42)|
+| precision| 1.0 (313/313)| 1.0 (48/48)| 1.0 (626/626)    | 1.0 (39/39)      |
+
+Errors (false negatives, total = 3; false positives, total = 0):
+
+False negatives in the label-label pairs (total 3): 
+1	top 10 ports [B22] -> u.s.-canada trade [B21]
+2	top 10 ports [B10] -> u.s.-north american trade [B9]
+3	top 10 ports [B34] -> u.s.-mexico trade [B33]
+
+
+FILE: C10095.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (36/36)| 1.0 (14/14)| 1.0 (72/72)      | 1.0 (4/4)        |
+| precision| 1.0 (36/36)| 1.0 (14/14)| 1.0 (72/72)      | 1.0 (4/4)        |
+
+
+FILE: C10096.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (48/48)| 1.0 (17/17)| 1.0 (96/96)      | 1.0 (4/4)        |
+| precision| 1.0 (48/48)| 1.0 (17/17)| 1.0 (96/96)      | 1.0 (4/4)        |
+
+
+FILE: C10097.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (80/80)| 1.0 (25/25)| 1.0 (160/160)    | NaN (0/0)        |
+| precision| 1.0 (80/80)| 1.0 (25/25)| 1.0 (160/160)    | NaN (0/0)        |
+
+
+FILE: C10098.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (20/20)| 1.0 (9/9)| 1.0 (40/40)      | NaN (0/0)        |
+| precision| 1.0 (20/20)| 1.0 (9/9)| 1.0 (40/40)      | NaN (0/0)        |
+
+
+FILE: C10099.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (165/165)| 1.0 (39/39)| 1.0 (330/330)    | 1.0 (35/35)      |
+| precision| 1.0 (165/165)| 1.0 (39/39)| 1.0 (330/330)    | 1.0 (35/35)      |
+
+
+FILE: C10100.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (48/48)| 1.0 (17/17)| 1.0 (96/96)      | 1.0 (4/4)        |
+| precision| 1.0 (48/48)| 1.0 (17/17)| 1.0 (96/96)      | 1.0 (4/4)        |
+
+
+FILE: C10101.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (76/76)| 1.0 (23/23)| 1.0 (152/152)    | NaN (0/0)        |
+| precision| 1.0 (76/76)| 1.0 (23/23)| 1.0 (152/152)    | NaN (0/0)        |
+
+
+FILE: C10102.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (21/21)| 1.0 (11/11)| 1.0 (42/42)      | 1.0 (6/6)        |
+| precision| 1.0 (21/21)| 1.0 (11/11)| 1.0 (42/42)      | 1.0 (6/6)        |
+
+
+FILE: C10103.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (84/84)| 1.0 (25/25)| 1.0 (168/168)    | NaN (0/0)        |
+| precision| 1.0 (84/84)| 1.0 (25/25)| 1.0 (168/168)    | NaN (0/0)        |
+
+
+FILE: C10104.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (39/39)| 1.0 (38/38)| 1.0 (138/138)    | NaN (0/0)        |
+| precision| 1.0 (39/39)| 1.0 (38/38)| 1.0 (138/138)    | NaN (0/0)        |
+
+
+FILE: C10105.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (108/108)| 1.0 (23/23)| 1.0 (216/216)    | 1.0 (9/9)        |
+| precision| 1.0 (108/108)| 1.0 (23/23)| 1.0 (216/216)    | 1.0 (9/9)        |
+
+
+FILE: C10106.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (50/50)| 1.0 (15/15)| 1.0 (100/100)    | 1.0 (9/9)        |
+| precision| 1.0 (50/50)| 1.0 (15/15)| 1.0 (100/100)    | 1.0 (9/9)        |
+
+
+FILE: C10107.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (104/104)| 1.0 (29/29)| 1.0 (208/208)    | 1.0 (25/25)      |
+| precision| 1.0 (104/104)| 1.0 (29/29)| 1.0 (208/208)    | 1.0 (25/25)      |
+
+
+FILE: C10108.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (35/35)| 1.0 (15/15)| 1.0 (70/70)      | 1.0 (10/10)      |
+| precision| 1.0 (35/35)| 1.0 (15/15)| 1.0 (70/70)      | 1.0 (10/10)      |
+
+
+FILE: C10109.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (48/48)| 1.0 (38/38)| 1.0 (176/176)    | NaN (0/0)        |
+| precision| 1.0 (48/48)| 1.0 (38/38)| 1.0 (176/176)    | NaN (0/0)        |
+
+
+FILE: C10110.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (96/96)| 1.0 (36/36)| 1.0 (192/192)    | 1.0 (24/24)      |
+| precision| 1.0 (96/96)| 1.0 (36/36)| 1.0 (192/192)    | 1.0 (24/24)      |
+
+
+FILE: C10111.xlsx
+Results:
+____________________________________________________________________________________
+|          | entries    | labels            | entry-label pairs  | label-label pairs|
+|===================================================================================|
+| recall   | 1.0 (87/87)| 0.95652175 (22/23)| 0.9885057 (172/174)| 0.3 (3/10)       |
+| precision| 1.0 (87/87)| 0.95652175 (22/23)| 0.9885057 (172/174)| 1.0 (3/3)        |
+
+Errors (false negatives, total = 10; false positives, total = 3):
+
+False negatives in the labels (total 1): 
+1	total factor productivity, of which r&d capital contribution [B20]
+
+False positives in the labels (total 1):
+1	, of which r&d capital contribution [B20]
+
+False negatives in the entry-label pairs (total 2): 
+1	0,24 [F20] -> total factor productivity, of which r&d capital contribution [B20]
+2	0,20 [G20] -> total factor productivity, of which r&d capital contribution [B20]
+
+False positives in the entry-label pairs (total 2):
+1	0,24 [F20] -> , of which r&d capital contribution [B20]
+2	0,20 [G20] -> , of which r&d capital contribution [B20]
+
+False negatives in the label-label pairs (total 7): 
+1	…ict capital [B13] -> contribution of capital input [B12]
+2	...hours worked [B10] -> contribution of labour input [B9]
+3	…labour composition [B11] -> contribution of labour input [B9]
+4	…other capital [B18] -> contribution of capital input [B12]
+5	…other machinery and equipment [B17] -> contribution of capital input [B12]
+6	…labour composition [B6] -> change in labour input [B4]
+7	...hours worked [B5] -> change in labour input [B4]
+
+
+FILE: C10112.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (115/115)| 1.0 (29/29)| 1.0 (230/230)    | 1.0 (5/5)        |
+| precision| 1.0 (115/115)| 1.0 (29/29)| 1.0 (230/230)    | 1.0 (5/5)        |
+
+
+FILE: C10113.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (85/85)| 1.0 (22/22)| 1.0 (170/170)    | 1.0 (14/14)      |
+| precision| 1.0 (85/85)| 1.0 (22/22)| 1.0 (170/170)    | 1.0 (14/14)      |
+
+
+FILE: C10114.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (78/78)| 1.0 (22/22)| 1.0 (156/156)    | 1.0 (9/9)        |
+| precision| 1.0 (78/78)| 1.0 (22/22)| 1.0 (156/156)    | 1.0 (9/9)        |
+
+
+FILE: C10115.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (58/58)| 1.0 (23/23)| 1.0 (116/116)    | NaN (0/0)        |
+| precision| 1.0 (58/58)| 1.0 (23/23)| 1.0 (116/116)    | NaN (0/0)        |
+
+
+FILE: C10116.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10117.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (209/209)| 1.0 (31/31)| 1.0 (418/418)    | 0.2 (1/5)        |
+| precision| 1.0 (209/209)| 1.0 (31/31)| 1.0 (418/418)    | 0.33333334 (1/3) |
+
+Errors (false negatives, total = 4; false positives, total = 2):
+
+False negatives in the label-label pairs (total 4): 
+1	coal [B11] -> energy consumption [B9]
+2	energy subtotal [B14] -> energy consumption [B9]
+3	natural gas [B12] -> energy consumption [B9]
+4	petroleum [B10] -> energy consumption [B9]
+
+False positives in the label-label pairs (total 2):
+1	energy subtotal [B14] -> non-biogenic msw and geothermal [B13]
+2	total [B20] -> energy subtotal [B14]
+
+
+FILE: C10118.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (165/165)| 1.0 (38/38)| 1.0 (330/330)    | 1.0 (29/29)      |
+| precision| 1.0 (165/165)| 1.0 (38/38)| 1.0 (330/330)    | 1.0 (29/29)      |
+
+
+FILE: C10119.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (9/9)| 1.0 (24/24)      | 1.0 (6/6)        |
+| precision| 1.0 (12/12)| 1.0 (9/9)| 1.0 (24/24)      | 1.0 (6/6)        |
+
+
+FILE: C10120.xlsx
+Results:
+________________________________________________________________________________________
+|          | entries          | labels           | entry-label pairs | label-label pairs|
+|=======================================================================================|
+| recall   | 1.0 (72/72)      | 0.6666667 (14/21)| 0.5 (72/144)      | 0.5555556 (10/18)|
+| precision| 0.9113924 (72/79)| 1.0 (14/14)      | 0.72727275 (72/99)| 1.0 (10/10)      |
+
+Errors (false negatives, total = 87; false positives, total = 34):
+
+False positives in the entries (total 7):
+1	average $ constant 2007 [C5]
+2	implicit transfer rates [D5]
+3	implicit transfer rates [G5]
+4	shares % [E5]
+5	government transfers [C4]
+6	shares % [H5]
+7	average $ constant 2007 [F5]
+
+False negatives in the labels (total 7): 
+1	average $ constant 2007 [C5]
+2	implicit transfer rates [D5]
+3	implicit transfer rates [G5]
+4	shares % [E5]
+5	government transfers [C4]
+6	shares % [H5]
+7	average $ constant 2007 [F5]
+
+False negatives in the entry-label pairs (total 72): 
+1	100 [E12] -> shares % [E5]
+2	20,4 [H9] -> shares % [H5]
+3	9 200 [F9] -> average $ constant 2007 [F5]
+4	55,7 [G14] -> implicit transfer rates [G5]
+5	10,7 [D6] -> implicit transfer rates [D5]
+6	11,3 [G16] -> implicit transfer rates [G5]
+7	5 700 [F12] -> average $ constant 2007 [F5]
+8	47,2 [D7] -> implicit transfer rates [D5]
+9	4 700 [F16] -> average $ constant 2007 [F5]
+10	9,6 [E17] -> shares % [E5]
+11	8 900 [C6] -> average $ constant 2007 [C5]
+12	3 600 [C13] -> average $ constant 2007 [C5]
+13	7 300 [F15] -> average $ constant 2007 [F5]
+14	32,7 [E14] -> shares % [E5]
+15	9 000 [F6] -> average $ constant 2007 [F5]
+16	11 000 [C8] -> average $ constant 2007 [C5]
+17	13,2 [E13] -> shares % [E5]
+18	15,4 [H10] -> shares % [H5]
+19	4 300 [F13] -> average $ constant 2007 [F5]
+20	4,800 [C11] -> average $ constant 2007 [C5]
+21	100 [H12] -> shares % [H5]
+22	28,4 [H7] -> shares % [H5]
+23	7,2 [D10] -> implicit transfer rates [D5]
+24	9 600 [F14] -> average $ constant 2007 [F5]
+25	6 900 [F10] -> average $ constant 2007 [F5]
+26	25,1 [H8] -> shares % [H5]
+27	16,5 [H16] -> shares % [H5]
+28	28,9 [E15] -> shares % [E5]
+29	4 300 [C16] -> average $ constant 2007 [C5]
+30	53,3 [G13] -> implicit transfer rates [G5]
+31	15,9 [G12] -> implicit transfer rates [G5]
+32	9 200 [C9] -> average $ constant 2007 [C5]
+33	2.7 [D11] -> implicit transfer rates [D5]
+34	9 [H17] -> shares % [H5]
+35	8 000 [C15] -> average $ constant 2007 [C5]
+36	25,9 [H15] -> shares % [H5]
+37	10,6 [D16] -> implicit transfer rates [D5]
+38	3 [G17] -> implicit transfer rates [G5]
+39	7 000 [C10] -> average $ constant 2007 [C5]
+40	10,8 [H11] -> shares % [H5]
+41	15,6 [E10] -> shares % [E5]
+42	15,6 [E16] -> shares % [E5]
+43	13,2 [D9] -> implicit transfer rates [D5]
+44	100 [E6] -> shares % [E5]
+45	28,1 [E7] -> shares % [E5]
+46	15,8 [D12] -> implicit transfer rates [D5]
+47	4 900 [F11] -> average $ constant 2007 [F5]
+48	20,7 [E9] -> shares % [E5]
+49	100 [H6] -> shares % [H5]
+50	10.9 [E11] -> shares % [E5]
+51	11 300 [F8] -> average $ constant 2007 [F5]
+52	12 800 [F7] -> average $ constant 2007 [F5]
+53	22,8 [D8] -> implicit transfer rates [D5]
+54	33,7 [H14] -> shares % [H5]
+55	49 [D13] -> implicit transfer rates [D5]
+56	2,6 [G11] -> implicit transfer rates [G5]
+57	6,9 [G10] -> implicit transfer rates [G5]
+58	15 [H13] -> shares % [H5]
+59	9 100 [C14] -> average $ constant 2007 [C5]
+60	12 500 [C7] -> average $ constant 2007 [C5]
+61	31 [D15] -> implicit transfer rates [D5]
+62	24,7 [E8] -> shares % [E5]
+63	10,4 [G6] -> implicit transfer rates [G5]
+64	2 600 [F17] -> average $ constant 2007 [F5]
+65	5 500 [C12] -> average $ constant 2007 [C5]
+66	54,3 [D14] -> implicit transfer rates [D5]
+67	45,7 [G7] -> implicit transfer rates [G5]
+68	3,2 [D17] -> implicit transfer rates [D5]
+69	2 700 [C17] -> average $ constant 2007 [C5]
+70	22,7 [G8] -> implicit transfer rates [G5]
+71	12,9 [G9] -> implicit transfer rates [G5]
+72	27,6 [G15] -> implicit transfer rates [G5]
+
+False positives in the entry-label pairs (total 27):
+1	average $ constant 2007 [C5] -> 2006 [C3]
+2	9 600 [F14] -> 2007 [F3]
+3	2 700 [C17] -> 2006 [C3]
+4	12 800 [F7] -> 2007 [F3]
+5	3 600 [C13] -> 2006 [C3]
+6	8 000 [C15] -> 2006 [C3]
+7	12 500 [C7] -> 2006 [C3]
+8	5 500 [C12] -> 2006 [C3]
+9	8 900 [C6] -> 2006 [C3]
+10	4,800 [C11] -> 2006 [C3]
+11	4 300 [F13] -> 2007 [F3]
+12	4 300 [C16] -> 2006 [C3]
+13	6 900 [F10] -> 2007 [F3]
+14	9 200 [C9] -> 2006 [C3]
+15	2 600 [F17] -> 2007 [F3]
+16	7 000 [C10] -> 2006 [C3]
+17	7 300 [F15] -> 2007 [F3]
+18	11 300 [F8] -> 2007 [F3]
+19	average $ constant 2007 [F5] -> 2007 [F3]
+20	5 700 [F12] -> 2007 [F3]
+21	9 200 [F9] -> 2007 [F3]
+22	4 700 [F16] -> 2007 [F3]
+23	9 000 [F6] -> 2007 [F3]
+24	9 100 [C14] -> 2006 [C3]
+25	11 000 [C8] -> 2006 [C3]
+26	government transfers [C4] -> 2006 [C3]
+27	4 900 [F11] -> 2007 [F3]
+
+False negatives in the label-label pairs (total 8): 
+1	average $ constant 2007 [C5] -> 2006 [C3]
+2	2006 [C3] -> government transfers [C4]
+3	implicit transfer rates [D5] -> 2006 [C3]
+4	shares % [E5] -> 2006 [C3]
+5	average $ constant 2007 [F5] -> 2007 [F3]
+6	implicit transfer rates [G5] -> 2007 [F3]
+7	2007 [F3] -> government transfers [C4]
+8	shares % [H5] -> 2007 [F3]
+
+
+FILE: C10121.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (51/51)| 1.0 (20/20)| 1.0 (102/102)    | 0.0 (0/8)        |
+| precision| 1.0 (51/51)| 1.0 (20/20)| 1.0 (102/102)    | NaN (0/0)        |
+
+Errors (false negatives, total = 8; false positives, total = 0):
+
+False negatives in the label-label pairs (total 8): 
+1	3 - 9 storeys [B17] -> other than residential buildings [B15]
+2	10 + storeys [B13] -> blocks of flats [B10]
+3	1 - 2 storeys [B11] -> blocks of flats [B10]
+4	unknown number of storeys [B14] -> blocks of flats [B10]
+5	1 - 2 storeys [B16] -> other than residential buildings [B15]
+6	3 - 9 storeys [B12] -> blocks of flats [B10]
+7	unknown number of storeys [B19] -> other than residential buildings [B15]
+8	10 + storeys [B18] -> other than residential buildings [B15]
+
+
+FILE: C10122.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10123.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10124.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10125.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (155/155)| 1.0 (37/37)| 1.0 (310/310)    | 1.0 (31/31)      |
+| precision| 1.0 (155/155)| 1.0 (37/37)| 1.0 (310/310)    | 1.0 (31/31)      |
+
+
+FILE: C10126.xlsx
+Results:
+_________________________________________________________________________
+|          | entries  | labels     | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (8/8)| 1.0 (18/18)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (8/8)| 1.0 (18/18)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10127.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+| precision| 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+
+
+FILE: C10128.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (105/105)| 1.0 (26/26)| 1.0 (210/210)    | 1.0 (20/20)      |
+| precision| 1.0 (105/105)| 1.0 (26/26)| 1.0 (210/210)    | 1.0 (20/20)      |
+
+
+FILE: C10129.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+| precision| 1.0 (70/70)| 1.0 (19/19)| 1.0 (140/140)    | 1.0 (13/13)      |
+
+
+FILE: C10130.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (153/153)| 1.0 (28/28)| 1.0 (306/306)    | 1.0 (11/11)      |
+| precision| 1.0 (153/153)| 1.0 (28/28)| 1.0 (306/306)    | 1.0 (11/11)      |
+
+
+FILE: C10131.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (48/48)| 1.0 (17/17)| 1.0 (96/96)      | 1.0 (15/15)      |
+| precision| 1.0 (48/48)| 1.0 (17/17)| 1.0 (96/96)      | 1.0 (15/15)      |
+
+
+FILE: C10132.xlsx
+Results:
+__________________________________________________________________________________
+|          | entries    | labels            | entry-label pairs| label-label pairs|
+|=================================================================================|
+| recall   | 1.0 (48/48)| 0.85714287 (12/14)| 0.8333333 (80/96)| NaN (0/0)        |
+| precision| 1.0 (48/48)| 0.85714287 (12/14)| 0.8333333 (80/96)| NaN (0/0)        |
+
+Errors (false negatives, total = 18; false positives, total = 18):
+
+False negatives in the labels (total 2): 
+1	change, votes [E2]
+2	change, places [H2]
+
+False positives in the labels (total 2):
+1	change [H2]
+2	change [E2]
+
+False negatives in the entry-label pairs (total 16): 
+1	-1 [H3] -> change, places [H2]
+2	+1 [H7] -> change, places [H2]
+3	-1,387 [E10] -> change, votes [E2]
+4	-1 [H9] -> change, places [H2]
+5	+154,030 [E7] -> change, votes [E2]
+6	-1 [H5] -> change, places [H2]
+7	+33,595 [E6] -> change, votes [E2]
+8	-52,601 [E9] -> change, votes [E2]
+9	-58,474 [E5] -> change, votes [E2]
+10	+1 [H6] -> change, places [H2]
+11	+1 [H10] -> change, places [H2]
+12	-70,419 [E4] -> change, votes [E2]
+13	+7,032 [E8] -> change, votes [E2]
+14	-1 [H4] -> change, places [H2]
+15	-6,355 [E3] -> change, votes [E2]
+16	0 [H8] -> change, places [H2]
+
+False positives in the entry-label pairs (total 16):
+1	-1,387 [E10] -> change [E2]
+2	+7,032 [E8] -> change [E2]
+3	+154,030 [E7] -> change [E2]
+4	-1 [H9] -> change [H2]
+5	+1 [H7] -> change [H2]
+6	-70,419 [E4] -> change [E2]
+7	-58,474 [E5] -> change [E2]
+8	-1 [H3] -> change [H2]
+9	+1 [H6] -> change [H2]
+10	-1 [H4] -> change [H2]
+11	-52,601 [E9] -> change [E2]
+12	-1 [H5] -> change [H2]
+13	0 [H8] -> change [H2]
+14	+1 [H10] -> change [H2]
+15	+33,595 [E6] -> change [E2]
+16	-6,355 [E3] -> change [E2]
+
+
+FILE: C10133.xlsx
+Results:
+_____________________________________________________________________________________
+|          | entries    | labels            | entry-label pairs   | label-label pairs|
+|====================================================================================|
+| recall   | 1.0 (90/90)| 0.9047619 (19/21) | 0.93333334 (168/180)| 0.0 (0/12)       |
+| precision| 1.0 (90/90)| 0.82608694 (19/23)| 0.93333334 (168/180)| NaN (0/0)        |
+
+Errors (false negatives, total = 26; false positives, total = 16):
+
+False negatives in the labels (total 2): 
+1	manufacturing, total [B4]
+2	services, total [B12]
+
+False positives in the labels (total 4):
+1	total [B13]
+2	services, [B12]
+3	manufacturing, [B4]
+4	total [B5]
+
+False negatives in the entry-label pairs (total 12): 
+1	31 [F4] -> manufacturing, total [B4]
+2	43 [G12] -> services, total [B12]
+3	16 [H4] -> manufacturing, total [B4]
+4	22 [F12] -> services, total [B12]
+5	50 [E4] -> manufacturing, total [B4]
+6	40 [D4] -> manufacturing, total [B4]
+7	39 [E12] -> services, total [B12]
+8	34 [C4] -> manufacturing, total [B4]
+9	54 [G4] -> manufacturing, total [B4]
+10	32 [D12] -> services, total [B12]
+11	13 [H12] -> services, total [B12]
+12	29 [C12] -> services, total [B12]
+
+False positives in the entry-label pairs (total 12):
+1	43 [G12] -> services, [B12]
+2	32 [D12] -> services, [B12]
+3	54 [G4] -> manufacturing, [B4]
+4	39 [E12] -> services, [B12]
+5	13 [H12] -> services, [B12]
+6	34 [C4] -> manufacturing, [B4]
+7	31 [F4] -> manufacturing, [B4]
+8	22 [F12] -> services, [B12]
+9	29 [C12] -> services, [B12]
+10	40 [D4] -> manufacturing, [B4]
+11	16 [H4] -> manufacturing, [B4]
+12	50 [E4] -> manufacturing, [B4]
+
+False negatives in the label-label pairs (total 12): 
+1	250 - 499 [B18] -> services, total [B12]
+2	250 - 499 [B10] -> manufacturing, total [B4]
+3	500 - [B19] -> services, total [B12]
+4	100 - 249 [B17] -> services, total [B12]
+5	500 - [B11] -> manufacturing, total [B4]
+6	20 - 49 [B7] -> manufacturing, total [B4]
+7	20 - 49 [B15] -> services, total [B12]
+8	10 - 19 [B14] -> services, total [B12]
+9	50 - 99 [B16] -> services, total [B12]
+10	50 - 99 [B8] -> manufacturing, total [B4]
+11	10 - 19 [B6] -> manufacturing, total [B4]
+12	100 - 249 [B9] -> manufacturing, total [B4]
+
+
+FILE: C10134.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (25/25)| 1.0 (10/10)| 1.0 (50/50)      | NaN (0/0)        |
+| precision| 1.0 (25/25)| 1.0 (10/10)| 1.0 (50/50)      | NaN (0/0)        |
+
+
+FILE: C10135.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (57/57)| 1.0 (18/18)| 1.0 (114/114)    | 1.0 (12/12)      |
+| precision| 1.0 (57/57)| 1.0 (18/18)| 1.0 (114/114)    | 1.0 (12/12)      |
+
+
+FILE: C10136.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (178/178)| 1.0 (27/27)| 1.0 (356/356)    | 1.0 (11/11)      |
+| precision| 1.0 (178/178)| 1.0 (27/27)| 1.0 (356/356)    | 1.0 (11/11)      |
+
+
+FILE: C10137.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (15/15)| 1.0 (80/80)      | 1.0 (13/13)      |
+| precision| 1.0 (40/40)| 1.0 (15/15)| 1.0 (80/80)      | 1.0 (13/13)      |
+
+
+FILE: C10138.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (22/22)| 1.0 (80/80)      | NaN (0/0)        |
+| precision| 1.0 (40/40)| 1.0 (22/22)| 1.0 (80/80)      | NaN (0/0)        |
+
+
+FILE: C10139.xlsx
+Results:
+_______________________________________________________________________
+|          | entries  | labels   | entry-label pairs| label-label pairs|
+|======================================================================|
+| recall   | 1.0 (9/9)| 1.0 (6/6)| 1.0 (18/18)      | NaN (0/0)        |
+| precision| 1.0 (9/9)| 1.0 (6/6)| 1.0 (18/18)      | NaN (0/0)        |
+
+
+FILE: C10140.xlsx
+Results:
+______________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs |
+|=============================================================================|
+| recall   | 1.0 (161/161)| 1.0 (46/46)| 1.0 (322/322)    | 0.63414633 (26/41)|
+| precision| 1.0 (161/161)| 1.0 (46/46)| 1.0 (322/322)    | 0.6666667 (26/39) |
+
+Errors (false negatives, total = 15; false positives, total = 13):
+
+False negatives in the label-label pairs (total 15): 
+1	females [B6] -> canada [B4]
+2	prince edward island [B10] -> canada [B4]
+3	british columbia [B34] -> canada [B4]
+4	nova scotia [B13] -> canada [B4]
+5	manitoba [B25] -> canada [B4]
+6	ontario [B22] -> canada [B4]
+7	nunavut [B43] -> canada [B4]
+8	saskatchewan [B28] -> canada [B4]
+9	northwest territories [B40] -> canada [B4]
+10	quebec [B19] -> canada [B4]
+11	new brunswick [B16] -> canada [B4]
+12	males [B5] -> canada [B4]
+13	alberta [B31] -> canada [B4]
+14	yukon territory [B37] -> canada [B4]
+15	newfoundland and labrador [B7] -> canada [B4]
+
+False positives in the label-label pairs (total 13):
+1	nunavut [B43] -> females [B6]
+2	prince edward island [B10] -> females [B6]
+3	alberta [B31] -> females [B6]
+4	nova scotia [B13] -> females [B6]
+5	newfoundland and labrador [B7] -> females [B6]
+6	saskatchewan [B28] -> females [B6]
+7	new brunswick [B16] -> females [B6]
+8	ontario [B22] -> females [B6]
+9	quebec [B19] -> females [B6]
+10	manitoba [B25] -> females [B6]
+11	british columbia [B34] -> females [B6]
+12	northwest territories [B40] -> females [B6]
+13	yukon territory [B37] -> females [B6]
+
+
+FILE: C10141.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (10/10)| 1.0 (7/7)| 1.0 (20/20)      | NaN (0/0)        |
+| precision| 1.0 (10/10)| 1.0 (7/7)| 1.0 (20/20)      | NaN (0/0)        |
+
+
+FILE: C10142.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | NaN (0/0)        |
+| precision| 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | NaN (0/0)        |
+
+
+FILE: C10143.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (15/15)| 1.0 (8/8)| 1.0 (30/30)      | NaN (0/0)        |
+| precision| 1.0 (15/15)| 1.0 (8/8)| 1.0 (30/30)      | NaN (0/0)        |
+
+
+FILE: C10144.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (65/65)| 1.0 (18/18)| 1.0 (130/130)    | 1.0 (11/11)      |
+| precision| 1.0 (65/65)| 1.0 (18/18)| 1.0 (130/130)    | 1.0 (11/11)      |
+
+
+FILE: C10145.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (9/9)| 1.0 (24/24)      | 1.0 (6/6)        |
+| precision| 1.0 (12/12)| 1.0 (9/9)| 1.0 (24/24)      | 1.0 (6/6)        |
+
+
+FILE: C10146.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | 0.4375 (7/16)    |
+| precision| 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | 0.4375 (7/16)    |
+
+Errors (false negatives, total = 9; false positives, total = 9):
+
+False negatives in the label-label pairs (total 9): 
+1	hc.4.1 clinical laboratory and diagnostic imaging [B13] -> hc.4 ancillary services to health care [B12]
+2	hc.3.3 long-term nursing care: home care [B11] -> hc.3 service og long term nursing care [B9]
+3	hc.3.1 in-patient long-term nursing care [B10] -> hc.3 service og long term nursing care [B9]
+4	hc.1.1 in-patient curative care [B5] -> hc.1 service of curative care [B4]
+5	hc.5.1 pharmaceuticals and other medical non-durables [B16] -> hc.5 medical goods dispensed to out-patients [B15]
+6	hc.1.2 day cases of curative care [B6] -> hc.1 service of curative care [B4]
+7	hc.4.3 patient transport and emergency rescue [B14] -> hc.4 ancillary services to health care [B12]
+8	hc.5.2 therapeutic appliances and medical equipment (durables) [B17] -> hc.5 medical goods dispensed to out-patients [B15]
+9	hc.1.3-1.4 out-patient curative care [B7] -> hc.1 service of curative care [B4]
+
+False positives in the label-label pairs (total 9):
+1	hc.4.3 patient transport and emergency rescue [B14] -> total expenditure on health [B3]
+2	hc.4.1 clinical laboratory and diagnostic imaging [B13] -> total expenditure on health [B3]
+3	hc.3.1 in-patient long-term nursing care [B10] -> total expenditure on health [B3]
+4	hc.1.2 day cases of curative care [B6] -> total expenditure on health [B3]
+5	hc.1.1 in-patient curative care [B5] -> total expenditure on health [B3]
+6	hc.3.3 long-term nursing care: home care [B11] -> total expenditure on health [B3]
+7	hc.5.2 therapeutic appliances and medical equipment (durables) [B17] -> total expenditure on health [B3]
+8	hc.1.3-1.4 out-patient curative care [B7] -> total expenditure on health [B3]
+9	hc.5.1 pharmaceuticals and other medical non-durables [B16] -> total expenditure on health [B3]
+
+
+FILE: C10147.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | 0.75 (6/8)       |
+| precision| 1.0 (40/40)| 1.0 (14/14)| 1.0 (80/80)      | 1.0 (6/6)        |
+
+Errors (false negatives, total = 2; false positives, total = 0):
+
+False negatives in the label-label pairs (total 2): 
+1	total revenue [B5] -> canada [B4]
+2	total expenses [B8] -> canada [B4]
+
+
+FILE: C10148.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (96/96)| 1.0 (27/27)| 1.0 (192/192)    | 1.0 (21/21)      |
+| precision| 1.0 (96/96)| 1.0 (27/27)| 1.0 (192/192)    | 1.0 (21/21)      |
+
+
+FILE: C10149.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (70/70)| 1.0 (20/20)| 1.0 (140/140)    | 1.0 (13/13)      |
+| precision| 1.0 (70/70)| 1.0 (20/20)| 1.0 (140/140)    | 1.0 (13/13)      |
+
+
+FILE: C10150.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (115/115)| 1.0 (27/27)| 1.0 (230/230)    | 1.0 (18/18)      |
+| precision| 1.0 (115/115)| 1.0 (27/27)| 1.0 (230/230)    | 1.0 (18/18)      |
+
+
+FILE: C10151.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (75/75)| 1.0 (24/24)| 1.0 (150/150)    | 1.0 (22/22)      |
+| precision| 1.0 (75/75)| 1.0 (24/24)| 1.0 (150/150)    | 1.0 (22/22)      |
+
+
+FILE: C10152.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | NaN (0/0)        |
+| precision| 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | NaN (0/0)        |
+
+
+FILE: C10153.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10154.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (36/36)| 1.0 (21/21)| 1.0 (72/72)      | 1.0 (2/2)        |
+| precision| 1.0 (36/36)| 1.0 (21/21)| 1.0 (72/72)      | 1.0 (2/2)        |
+
+
+FILE: C10155.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10156.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (60/60)| 1.0 (19/19)| 1.0 (120/120)    | NaN (0/0)        |
+| precision| 1.0 (60/60)| 1.0 (19/19)| 1.0 (120/120)    | NaN (0/0)        |
+
+
+FILE: C10157.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | 1.0 (20/20)      |
+| precision| 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | 1.0 (20/20)      |
+
+
+FILE: C10158.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (156/156)| 1.0 (34/34)| 1.0 (312/312)    | 1.0 (29/29)      |
+| precision| 1.0 (156/156)| 1.0 (34/34)| 1.0 (312/312)    | 1.0 (29/29)      |
+
+
+FILE: C10159.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (65/65)| 1.0 (18/18)| 1.0 (130/130)    | 0.0 (0/10)       |
+| precision| 1.0 (65/65)| 1.0 (18/18)| 1.0 (130/130)    | 0.0 (0/5)        |
+
+Errors (false negatives, total = 10; false positives, total = 5):
+
+False negatives in the label-label pairs (total 10): 
+1	wood and derived fuels [B15] -> biomass [B10]
+2	biomass [B10] -> renewable total [B9]
+3	solar/pv [B18] -> renewable total [B9]
+4	wind [B19] -> renewable total [B9]
+5	hydroelectric conventional [B17] -> renewable total [B9]
+6	waste [B11] -> biomass [B10]
+7	msw [B13] -> waste [B11]
+8	landfill gas [B12] -> waste [B11]
+9	other biomass [B14] -> waste [B11]
+10	geothermal [B16] -> renewable total [B9]
+
+False positives in the label-label pairs (total 5):
+1	landfill gas [B12] -> biomass [B10]
+2	wood and derived fuels [B15] -> renewable total [B9]
+3	msw [B13] -> biomass [B10]
+4	other biomass [B14] -> biomass [B10]
+5	waste [B11] -> renewable total [B9]
+
+
+FILE: C10160.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (70/70)| 1.0 (20/20)| 1.0 (140/140)    | 1.0 (18/18)      |
+| precision| 1.0 (70/70)| 1.0 (20/20)| 1.0 (140/140)    | 1.0 (18/18)      |
+
+
+FILE: C10161.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (39/39)| 1.0 (14/14)| 1.0 (78/78)      | 1.0 (5/5)        |
+| precision| 1.0 (39/39)| 1.0 (14/14)| 1.0 (78/78)      | 1.0 (5/5)        |
+
+
+FILE: C10162.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (10/10)| 1.0 (7/7)| 1.0 (20/20)      | NaN (0/0)        |
+| precision| 1.0 (10/10)| 1.0 (7/7)| 1.0 (20/20)      | NaN (0/0)        |
+
+
+FILE: C10163.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (76/76)| 1.0 (23/23)| 1.0 (152/152)    | 1.0 (4/4)        |
+| precision| 1.0 (76/76)| 1.0 (23/23)| 1.0 (152/152)    | 1.0 (4/4)        |
+
+
+FILE: C10164.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (105/105)| 1.0 (26/26)| 1.0 (210/210)    | 1.0 (20/20)      |
+| precision| 1.0 (105/105)| 1.0 (26/26)| 1.0 (210/210)    | 1.0 (20/20)      |
+
+
+FILE: C10165.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (15/15)| 1.0 (8/8)| 1.0 (30/30)      | NaN (0/0)        |
+| precision| 1.0 (15/15)| 1.0 (8/8)| 1.0 (30/30)      | NaN (0/0)        |
+
+
+FILE: C10166.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (91/91)| 1.0 (21/21)| 1.0 (182/182)    | 1.0 (7/7)        |
+| precision| 1.0 (91/91)| 1.0 (21/21)| 1.0 (182/182)    | 1.0 (7/7)        |
+
+
+FILE: C10167.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (65/65)| 1.0 (20/20)| 1.0 (130/130)    | 1.0 (18/18)      |
+| precision| 1.0 (65/65)| 1.0 (20/20)| 1.0 (130/130)    | 1.0 (18/18)      |
+
+
+FILE: C10168.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (39/39)| 1.0 (18/18)| 1.0 (78/78)      | 1.0 (10/10)      |
+| precision| 1.0 (39/39)| 1.0 (18/18)| 1.0 (78/78)      | 1.0 (10/10)      |
+
+
+FILE: C10169.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (81/81)| 1.0 (23/23)| 1.0 (162/162)    | 1.0 (19/19)      |
+| precision| 1.0 (81/81)| 1.0 (23/23)| 1.0 (162/162)    | 1.0 (19/19)      |
+
+
+FILE: C10170.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (25/25)| 1.0 (10/10)| 1.0 (50/50)      | NaN (0/0)        |
+| precision| 1.0 (25/25)| 1.0 (10/10)| 1.0 (50/50)      | NaN (0/0)        |
+
+
+FILE: C10171.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (100/100)| 1.0 (25/25)| 1.0 (200/200)    | 1.0 (18/18)      |
+| precision| 1.0 (100/100)| 1.0 (25/25)| 1.0 (200/200)    | 1.0 (18/18)      |
+
+
+FILE: C10172.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (130/130)| 1.0 (31/31)| 1.0 (260/260)    | 1.0 (25/25)      |
+| precision| 1.0 (130/130)| 1.0 (31/31)| 1.0 (260/260)    | 1.0 (25/25)      |
+
+
+FILE: C10173.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (89/89)| 1.0 (26/26)| 1.0 (178/178)    | 1.0 (20/20)      |
+| precision| 1.0 (89/89)| 1.0 (26/26)| 1.0 (178/178)    | 1.0 (20/20)      |
+
+
+FILE: C10174.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (145/145)| 1.0 (34/34)| 1.0 (290/290)    | 1.0 (26/26)      |
+| precision| 1.0 (145/145)| 1.0 (34/34)| 1.0 (290/290)    | 1.0 (26/26)      |
+
+
+FILE: C10175.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (84/84)| 1.0 (25/25)| 1.0 (168/168)    | 1.0 (20/20)      |
+| precision| 1.0 (84/84)| 1.0 (25/25)| 1.0 (168/168)    | 1.0 (20/20)      |
+
+
+FILE: C10176.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries    | labels       | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (81/81)| 1.0 (109/109)| 1.0 (387/387)    | 1.0 (3/3)        |
+| precision| 1.0 (81/81)| 1.0 (109/109)| 1.0 (387/387)    | 1.0 (3/3)        |
+
+
+FILE: C10177.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (195/195)| 1.0 (28/28)| 1.0 (390/390)    | NaN (0/0)        |
+| precision| 1.0 (195/195)| 1.0 (28/28)| 1.0 (390/390)    | NaN (0/0)        |
+
+
+FILE: C10178.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (36/36)| 1.0 (20/20)| 1.0 (72/72)      | NaN (0/0)        |
+| precision| 1.0 (36/36)| 1.0 (20/20)| 1.0 (72/72)      | NaN (0/0)        |
+
+
+FILE: C10179.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (52/52)| 1.0 (17/17)| 1.0 (104/104)    | NaN (0/0)        |
+| precision| 1.0 (52/52)| 1.0 (17/17)| 1.0 (104/104)    | NaN (0/0)        |
+
+
+FILE: C10180.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (212/212)| 1.0 (39/39)| 1.0 (424/424)    | NaN (0/0)        |
+| precision| 1.0 (212/212)| 1.0 (39/39)| 1.0 (424/424)    | NaN (0/0)        |
+
+
+FILE: C10181.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (190/190)| 1.0 (31/31)| 1.0 (380/380)    | 1.0 (6/6)        |
+| precision| 1.0 (190/190)| 1.0 (31/31)| 1.0 (380/380)    | 1.0 (6/6)        |
+
+
+FILE: C10182.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (105/105)| 1.0 (22/22)| 1.0 (210/210)    | 1.0 (14/14)      |
+| precision| 1.0 (105/105)| 1.0 (22/22)| 1.0 (210/210)    | 1.0 (14/14)      |
+
+
+FILE: C10183.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (82/82)| 1.0 (22/22)| 1.0 (164/164)    | 1.0 (5/5)        |
+| precision| 1.0 (82/82)| 1.0 (22/22)| 1.0 (164/164)    | 1.0 (5/5)        |
+
+
+FILE: C10184.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (25/25)| 1.0 (10/10)| 1.0 (50/50)      | NaN (0/0)        |
+| precision| 1.0 (25/25)| 1.0 (10/10)| 1.0 (50/50)      | NaN (0/0)        |
+
+
+FILE: C10185.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | 1.0 (15/15)      |
+| precision| 1.0 (90/90)| 1.0 (23/23)| 1.0 (180/180)    | 1.0 (15/15)      |
+
+
+FILE: C10186.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (40/40)| 1.0 (17/17)| 1.0 (80/80)      | 1.0 (13/13)      |
+| precision| 1.0 (40/40)| 1.0 (17/17)| 1.0 (80/80)      | 1.0 (13/13)      |
+
+
+FILE: C10187.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (30/30)| 1.0 (14/14)| 1.0 (60/60)      | 1.0 (6/6)        |
+| precision| 1.0 (30/30)| 1.0 (14/14)| 1.0 (60/60)      | 1.0 (6/6)        |
+
+
+FILE: C10188.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (95/95)| 1.0 (26/26)| 1.0 (190/190)    | 1.0 (20/20)      |
+| precision| 1.0 (95/95)| 1.0 (26/26)| 1.0 (190/190)    | 1.0 (20/20)      |
+
+
+FILE: C10189.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (162/162)| 1.0 (28/28)| 1.0 (324/324)    | 1.0 (9/9)        |
+| precision| 1.0 (162/162)| 1.0 (28/28)| 1.0 (324/324)    | 1.0 (9/9)        |
+
+
+FILE: C10190.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+| precision| 1.0 (12/12)| 1.0 (8/8)| 1.0 (24/24)      | NaN (0/0)        |
+
+
+FILE: C10191.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (120/120)| 1.0 (29/29)| 1.0 (240/240)    | 1.0 (23/23)      |
+| precision| 1.0 (120/120)| 1.0 (29/29)| 1.0 (240/240)    | 1.0 (23/23)      |
+
+
+FILE: C10192.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (48/48)| 1.0 (17/17)| 1.0 (96/96)      | 1.0 (15/15)      |
+| precision| 1.0 (48/48)| 1.0 (17/17)| 1.0 (96/96)      | 1.0 (15/15)      |
+
+
+FILE: C10193.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (24/24)| 1.0 (27/27)| 1.0 (90/90)      | NaN (0/0)        |
+| precision| 1.0 (24/24)| 1.0 (27/27)| 1.0 (90/90)      | NaN (0/0)        |
+
+
+FILE: C10194.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (147/147)| 1.0 (29/29)| 1.0 (294/294)    | 1.0 (4/4)        |
+| precision| 1.0 (147/147)| 1.0 (29/29)| 1.0 (294/294)    | 1.0 (4/4)        |
+
+
+FILE: C10195.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (145/145)| 1.0 (34/34)| 1.0 (290/290)    | 1.0 (26/26)      |
+| precision| 1.0 (145/145)| 1.0 (34/34)| 1.0 (290/290)    | 1.0 (26/26)      |
+
+
+FILE: C10196.xlsx
+Results:
+_________________________________________________________________________
+|          | entries    | labels   | entry-label pairs| label-label pairs|
+|========================================================================|
+| recall   | 1.0 (12/12)| 1.0 (9/9)| 1.0 (24/24)      | 1.0 (6/6)        |
+| precision| 1.0 (12/12)| 1.0 (9/9)| 1.0 (24/24)      | 1.0 (6/6)        |
+
+
+FILE: C10197.xlsx
+Results:
+___________________________________________________________________________
+|          | entries    | labels     | entry-label pairs| label-label pairs|
+|==========================================================================|
+| recall   | 1.0 (95/95)| 1.0 (24/24)| 1.0 (190/190)    | 1.0 (17/17)      |
+| precision| 1.0 (95/95)| 1.0 (24/24)| 1.0 (190/190)    | 1.0 (17/17)      |
+
+
+FILE: C10198.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (156/156)| 1.0 (37/37)| 1.0 (312/312)    | 1.0 (24/24)      |
+| precision| 1.0 (156/156)| 1.0 (37/37)| 1.0 (312/312)    | 1.0 (24/24)      |
+
+
+FILE: C10199.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (353/353)| 1.0 (66/66)| 1.0 (706/706)    | 1.0 (3/3)        |
+| precision| 1.0 (353/353)| 1.0 (66/66)| 1.0 (706/706)    | 1.0 (3/3)        |
+
+
+FILE: C10200.xlsx
+Results:
+_____________________________________________________________________________
+|          | entries      | labels     | entry-label pairs| label-label pairs|
+|============================================================================|
+| recall   | 1.0 (378/378)| 1.0 (45/45)| 1.0 (756/756)    | 1.0 (38/38)      |
+| precision| 1.0 (378/378)| 1.0 (45/45)| 1.0 (756/756)    | 1.0 (38/38)      |
+
+
+SUMMARY OF RESULTS:
+_____________________________________________________________________________________________________________
+|          | entries                 | labels               | entry-label pairs      | label-label pairs     |
+|============================================================================================================|
+| recall   | 0.9813217 (16602/16918) | 0.9965013 (4842/4859)| 0.9772999 (34270/35066)| 0.93888354 (1951/2078)|
+| precision| 0.99957854 (16602/16609)| 0.9363759 (4842/5171)| 0.9965396 (34270/34389)| 0.9784353 (1951/1994) |
+
+SUMMARY OF ERRORS:
+
+Tables processed with errors, total = 25
+False negatives, total = 1256 in 25 tables
+False positives, total = 498 in 14 tables
+
+List of tables processed with errors:
+	1	C10006.xlsx	(false negatives, total = 3;	false positives, total = 0)
+	2	C10025.xlsx	(false negatives, total = 50;	false positives, total = 46)
+	3	C10034.xlsx	(false negatives, total = 15;	false positives, total = 13)
+	4	C10035.xlsx	(false negatives, total = 6;	false positives, total = 0)
+	5	C10036.xlsx	(false negatives, total = 3;	false positives, total = 0)
+	6	C10038.xlsx	(false negatives, total = 1;	false positives, total = 1)
+	7	C10047.xlsx	(false negatives, total = 12;	false positives, total = 14)
+	8	C10052.xlsx	(false negatives, total = 6;	false positives, total = 0)
+	9	C10053.xlsx	(false negatives, total = 4;	false positives, total = 0)
+	10	C10071.xlsx	(false negatives, total = 1;	false positives, total = 0)
+	11	C10079.xlsx	(false negatives, total = 7;	false positives, total = 8)
+	12	C10082.xlsx	(false negatives, total = 948;	false positives, total = 316)
+	13	C10083.xlsx	(false negatives, total = 3;	false positives, total = 0)
+	14	C10091.xlsx	(false negatives, total = 5;	false positives, total = 0)
+	15	C10094.xlsx	(false negatives, total = 3;	false positives, total = 0)
+	16	C10111.xlsx	(false negatives, total = 10;	false positives, total = 3)
+	17	C10117.xlsx	(false negatives, total = 4;	false positives, total = 2)
+	18	C10120.xlsx	(false negatives, total = 87;	false positives, total = 34)
+	19	C10121.xlsx	(false negatives, total = 8;	false positives, total = 0)
+	20	C10132.xlsx	(false negatives, total = 18;	false positives, total = 18)
+	21	C10133.xlsx	(false negatives, total = 26;	false positives, total = 16)
+	22	C10140.xlsx	(false negatives, total = 15;	false positives, total = 13)
+	23	C10146.xlsx	(false negatives, total = 9;	false positives, total = 9)
+	24	C10147.xlsx	(false negatives, total = 2;	false positives, total = 0)
+	25	C10159.xlsx	(false negatives, total = 10;	false positives, total = 5)
